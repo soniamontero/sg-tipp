@@ -95,10 +95,6 @@ html {
   font-weight: 400
 }
 
-#curiculum {
-  /* height: 100vh; */
-}
-
 .tipp-programme {
   margin-bottom: 60px;
 }
@@ -162,19 +158,24 @@ html {
   border-radius: 6px;
 }
 
-#syllabus_mobile {
+#syllabus_mobile_eligible {
   position: relative;
 }
 
-#syllabus_mobile::after {
+#syllabus_mobile_eligible::after {
     content: "";
     position: absolute;
-    width: 1440px;
+    width: 100%;
     height: calc(100% - 130px);
     top: 0;
     background-color: #fcf5e8;
     z-index: -1;
 }
+
+#syllabus_mobile {
+  background-color: #fcf5e8;
+}
+
 
 /* Uncoming Batches */
 .next-batches .card-next-batch:last-of-type {
@@ -186,6 +187,12 @@ html {
 .next-batches a .card-next-batch {
   width: 100%;
 }
+
+.card-next-batch .course-icon {
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+  }
 
 .cta-link-container{
   display:flex;
@@ -235,6 +242,74 @@ html {
 .testimonials .carousel-control-next-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
 }
+
+
+.curriculum .main {
+  display: flex;
+  justify-content: space-around;
+}
+
+.curriculum .main h2.course-name {
+  font-size: 21px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  letter-spacing: -1px;
+}
+
+.curriculum .main .left {
+  width: 45%;
+}
+
+.curriculum .main .right {
+  width: 45%;
+}
+
+
+/* Start Accordion */
+.accordion .curriculum-card {
+  min-width: 100%;
+}
+
+.accordion .curriculum-card .card-header {
+  background-color: #f6f8fa;
+  display: flex;
+}
+
+.accordion .curriculum-card .card-header h2 {
+  font-size: 18px;
+    margin: 0px;
+    color: black;
+}
+.accordion .curriculum-card .card-header h2 button:hover {
+  text-decoration: none;
+}
+
+.accordion .curriculum-card .card-header h2 button:active {
+  text-decoration: none;
+
+}
+
+.accordion .curriculum-card .card-header h2 button {
+  display: flex;
+  align-items: center;
+}
+
+.accordion .curriculum-card .card-header h2 button i {
+  color: #fd1015;
+  padding-right: 10px;
+}
+
+.accordion .curriculum-card .card-body {
+  background-color: white;
+  color: #706e70;
+  padding-left: 32px;
+}
+
+.accordion .curriculum-card #collapseFour .card-body ul li {
+  font-size: 15px;
+}
+
+/* Finish Accordion */
 
 
 .wrapper-program:first-of-type {
@@ -404,7 +479,7 @@ abbr.section_title {
     }
 
 
-    @media only screen and (max-width: 850px) {
+@media only screen and (max-width: 850px) {
      .imda-logo-abs{
       display: none
     }
@@ -412,30 +487,92 @@ abbr.section_title {
       display: block
     }
 
+}
+
+  @media (max-width: 850px) {
+  .curriculum .main {
+    flex-direction: column;
+  }
+  .curriculum .left {
+    width: 100% !important;
+  }
+  .curriculum .right{
+    width: 100% !important;
   }
 
-  @media only screen and (max-width: 600px) {
-
-
-    .cta-black-link{
-      font-size: 24px;
-    }
-
-    .navbar {
-      justify-content: space-between !important;
-      background-color: transparent;
-    }
-    .nav_logo{
-      margin-right: 0px !important
-    }
-    .section-text {
-      font-size: 17px;
-    }
-    .list_section li {
-      font-size: 20px;
-      margin-bottom: 2vh;
-    }
+  .picture {
+    display: none;
   }
+  .eligible-main {
+    display: flex;
+  }
+  .eligible-list {
+    padding-top: 0px !important;
+  }
+  .contact-us-link {
+    padding-left: 16px ;
+    padding-right: 16px;
+    /*display: flex;*/
+  }
+  .contact-us-link img {
+    padding-right: 10px;
+  }
+  .cta-contact-list {
+    border-bottom: 2px solid #fd1015 !important;
+  }
+
+  #syllabus_mobile_eligible::after {
+    height: 100%;
+  }
+
+  .experience h2 {
+    text-align: center;
+  }
+
+  .experience .container {
+    flex-wrap: wrap;
+  }
+  .experience .left {
+    width: 100% !important;
+  }
+
+  .experience .left .section-text {
+    margin-bottom: 0vh;
+  }
+
+  .experience .left .video {
+    padding: 0;
+  }
+
+  .list_section {
+    padding-left: 0;
+    margin-left: 0;
+  }
+
+  .list_section li {
+    font-size: 20px;
+    margin-bottom: 2vh;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+
+
+  .cta-black-link{
+    font-size: 24px;
+  }
+
+  .navbar {
+    justify-content: space-between !important;
+    background-color: transparent;
+  }
+  .nav_logo{
+    margin-right: 0px !important
+  }
+  .section-text {
+    font-size: 17px;
+  }
+}
 
 
   .cta-link-container img{
@@ -1209,10 +1346,6 @@ tbody{
 
   }
 
-  .contact-us-link{
-    display: block
-  }
-
   .contact-us-link img{
     width: 58px;
     margin-bottom: 12px;
@@ -1242,6 +1375,11 @@ tbody{
   }
   .card-next-batch{
     height: 200px !important;
+  }
+  .card-next-batch .course-icon {
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
   }
   .hs-testimonial{
     width: 90%

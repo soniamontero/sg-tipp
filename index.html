@@ -4,844 +4,568 @@
 -->
 <!DOCTYPE html>
 <html lang="{{ html_lang }}" {{ html_lang_dir }}>
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+<head>
+  <meta charset="utf-8" />
+  <meta
+  name="viewport"
+  content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
+
+  <title>Le Wagon Singapore | TIPP</title>
+  <meta name="description" content="{{ page_meta.meta_description }}" />
+  <link
+  rel="stylesheet"
+  href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+  integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+  crossorigin="anonymous"
+  />
+  <link
+  href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+  rel="stylesheet"
+  integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+  crossorigin="anonymous"
+  />
+  <link
+  href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway&display=swap"
+  rel="stylesheet"
+  />
+  <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css" />
+  <link
+  href="https:{{ get_asset_url('/Singapore Landing Page Test/SG Landing Page.css') }}"
+  rel="stylesheet"
+  />
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+  <header class="pb-5">
+    <img
+    alt="IMDA Logo"
+    width="120"
+    class="imda-logo-abs"
+    src="https://cdn2.hubspot.net/hubfs/4419217/Singapore/image.png"
     />
 
-    <title>Le Wagon Singapore | TIPP</title>
-    <meta name="description" content="{{ page_meta.meta_description }}" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-      crossorigin="anonymous"
-    />
-    <link
-      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-      rel="stylesheet"
-      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
-      crossorigin="anonymous"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css" />
-    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css" />
-    <link
-      href="https:{{ get_asset_url('/Singapore Landing Page Test/SG Landing Page.css') }}"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" type="text/css" href="style.css" />
-  </head>
-  <body>
-    <header class="pb-5">
+    <nav class="navbar navbar-light">
+      <a class="navbar-brand" href="#"
+      ><img
+      alt="Le Wagon Logo"
+      class="nav_logo mr-5"
+      src="https://i.ibb.co/4jbbv1P/logo.png"
+      alt="logo"
+      /></a>
       <img
-        alt="IMDA Logo"
-        width="120"
-        class="imda-logo-abs"
-        src="https://cdn2.hubspot.net/hubfs/4419217/Singapore/image.png"
+      alt="IMDA Logo"
+      class="imda-logo-navbar"
+      width="120"
+      src="https://cdn2.hubspot.net/hubfs/4419217/Singapore/image.png"
       />
-
-      <nav class="navbar navbar-light">
-        <a class="navbar-brand" href="#"
-          ><img
-            alt="Le Wagon Logo"
-            class="nav_logo mr-5"
-            src="https://i.ibb.co/4jbbv1P/logo.png"
-            alt="logo"
-        /></a>
-        <img
-          alt="IMDA Logo"
-          class="imda-logo-navbar"
-          width="120"
-          src="https://cdn2.hubspot.net/hubfs/4419217/Singapore/image.png"
-        />
-      </nav>
-      <div class="header_title">
-        <h1>LE WAGON PARTNERSHIP WITH IMDA</h1>
-        <div>
-          <h3 class="sub_title">
-            Learn to code in 9 weeks | Up to 70% off course fees
-          </h3>
-          <div class="cta_btns cta_btns_title">
-            <button
-              type="button"
-              class="banner-button-red syllabus-button mr-3 modal-form-btn btn btn-primary"
-              data-toggle="modal"
-              data-target="#syllabusModal"
-            >
-              Download the Syllabus
-            </button>
-
-            <!--           <a class="banner-button-red mr-3" target="_blank" href="https://www.lewagon.com/singapore/apply">Apply Now</a> -->
-          </div>
-        </div>
-      </div>
-    </header>
-
-    <section class="tipp-programme">
-      <div class="container">
-        <h2 class="section_title text-center">
-          Tech Immersion and Placement Programme
-          <span class="highlighted-red">(TIPP)</span>
-        </h2>
-        <p class="mb-5 section-text">
-          As the No.1 Coding Bootcamp we are proud to partner with IMDA to
-          massively support Singaporeans with their tech education. The TIPP
-          subsidy is for fresh grads, mid-career switchers and IT professionals
-          who want to up-skill for a new tech position as well as individuals
-          with a passion to join or build a tech start-up.
-        </p>
-
-        <div class="cards-container">
-          <div class="card">
-            <div class="title">Course Fees</div>
-            <div class="value">$10,000</div>
-          </div>
-          <div class="card">
-            <div class="title">TIPP Subsidy</div>
-            <div class="value">$7,000</div>
-          </div>
-          <div class="card">
-            <div class="title">Final Cost</div>
-            <div class="value">$3,000</div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="syllabus_mobile_eligible" class="pt-4">
-      <div class="container" style="">
-        <h2 class="section_title text-center mb-5 pb-3">
-          <span class="highlighted-red">Find out</span> if you're eligible!
-        </h2>
-        <div class="eligible-main row justify-content-md-center">
-          <img
-            class="picture"
-            src="https://dwj199mwkel52.cloudfront.net/assets/core/home/coding-school-that-cares-alumni-025e665def0e2f5a9a539cd2f8762fedbd4c5074a725ebed08570a5bdacc45f7.jpg"
-          />
-          <div
-            class="mx-auto text-center d-flex eligible-list"
-            style="padding-top: 80px;"
+    </nav>
+    <div class="header_title">
+      <h1>LE WAGON PARTNERSHIP WITH IMDA</h1>
+      <div>
+        <h3 class="sub_title">
+          Learn to code in 9 weeks | Up to 70% off course fees
+        </h3>
+        <div class="cta_btns cta_btns_title">
+          <button
+          type="button"
+          class="banner-button-red syllabus-button mr-3 modal-form-btn btn btn-primary"
+          data-toggle="modal"
+          data-target="#syllabusModal"
           >
-            <ul class="list_section eligible p-0 d-flex flex-column">
-              <a
-                target="_blank"
-                href="https://meetings.hubspot.com/singapore1"
-                class="contact-us-link align-items-center mb-5"
-              >
-                <img
-                  alt="Book a Call"
-                  class=""
-                  width="40"
-                  src="https://cdn2.hubspot.net/hubfs/4419217/Singapore/call.png"
-                />
-                <li class="cta-contact-list text-left" style="border: none;">
-                  Book a call
-                </li>
-              </a>
-              <a
-                target="_blank"
-                href="mailto:singapore@lewagon.com"
-                class="contact-us-link align-items-center mb-5"
-              >
-                <img
-                  alt="Email us"
-                  class=""
-                  width="40"
-                  src="https://cdn2.hubspot.net/hubfs/4419217/Singapore/mail.png"
-                />
-                <li class="cta-contact-list text-left" style="border: none;">
-                  Email us at singapore@lewagon.com
-                </li>
-              </a>
-              <a
-                href="#faq-section"
-                class="contact-us-link align-items-center mb-5"
-              >
-                <img
-                  alt="Faq"
-                  class=""
-                  width="40"
-                  src="https://cdn2.hubspot.net/hubfs/4419217/Singapore/Question.png"
-                />
-                <li class="cta-contact-list text-left" style="border: none;">
-                  Check the FAQ
-                </li>
-              </a>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
+          Download the Syllabus
+        </button>
 
-    <div>
-      <section
-        id="upcoming-batches"
-        class="wrapper wrapper-upcoming-batches cream mb-5"
-        data-target="affix-reveal.section"
+        <!--           <a class="banner-button-red mr-3" target="_blank" href="https://www.lewagon.com/singapore/apply">Apply Now</a> -->
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="tipp-programme">
+  <div class="container">
+    <h2 class="section_title text-center">
+      Tech Immersion and Placement Programme
+      <span class="highlighted-red">(TIPP)</span>
+    </h2>
+    <p class="mb-5 section-text">
+      As the No.1 Coding Bootcamp we are proud to partner with IMDA to
+      massively support Singaporeans with their tech education. The TIPP
+      subsidy is for fresh grads, mid-career switchers and IT professionals
+      who want to up-skill for a new tech position as well as individuals
+      with a passion to join or build a tech start-up.
+    </p>
+
+    <div class="cards-container">
+      <div class="card">
+        <div class="title">Course Fees</div>
+        <div class="value">$10,000</div>
+      </div>
+      <div class="card">
+        <div class="title">TIPP Subsidy</div>
+        <div class="value">$7,000</div>
+      </div>
+      <div class="card">
+        <div class="title">Final Cost</div>
+        <div class="value">$3,000</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="syllabus_mobile_eligible" class="pt-4">
+  <div class="container" style="">
+    <h2 class="section_title text-center mb-5 pb-3">
+      <span class="highlighted-red">Find out</span> if you're eligible!
+    </h2>
+    <div class="eligible-main row justify-content-md-center">
+      <img
+      class="picture"
+      src="https://dwj199mwkel52.cloudfront.net/assets/core/home/coding-school-that-cares-alumni-025e665def0e2f5a9a539cd2f8762fedbd4c5074a725ebed08570a5bdacc45f7.jpg"
+      />
+      <div
+      class="mx-auto text-center d-flex eligible-list"
+      style="padding-top: 80px;"
       >
-        <h2 class="section_title text-center mt-4">
-          <span class="highlighted-red">Upcoming</span> batches
-        </h2>
-        <!-- Next open full-time baches -->
-        <div class="next-batches container">
-          <div class="row">
-            <div class="col-md-6 py-3">
-              <div class="card-next-batch">
-                <div class="d-flex">
-                  <img class="course-icon" src="images/computer.png" />
-                  <h4 class="mb-3">
-                    Full Time Web Development Course
-                  </h4>
-                </div>
-                <span class="next-batch-date">
-                  Aug 3, 2020 - Oct 2, 2020
-                </span>
-                <br />
-                <div class="upcoming-batch-cta">
-                  <a
-                    target="_blank"
-                    href="https://www.lewagon.com/singapore/web-development-course/full-time"
-                  >
-                    <strong class="blue-link">Explore course</strong>
-                  </a>
-                  <a
-                    target="_blank"
-                    href="https://www.lewagon.com/singapore/apply"
-                  >
-                    <strong class="red-link">Apply now</strong>
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-6 py-3">
-              <div class="card-next-batch">
-                <div class="d-flex">
-                  <img class="course-icon" src="images/database.png" />
-                  <h4 class="mb-3">
-                    Data Science Course
-                  </h4>
-                </div>
-                <br />
-                <span class="next-batch-date">
-                  Oct 19, 2020 - Dec 18, 2020
-                </span>
-                <br />
-                <div class="upcoming-batch-cta">
-                  <a
-                    target="_blank"
-                    href="https://www.lewagon.com/singapore/web-development-course/full-time"
-                  >
-                    <strong class="blue-link">Explore course</strong>
-                  </a>
-                  <a
-                    target="_blank"
-                    href="https://www.lewagon.com/singapore/apply"
-                  >
-                    <strong class="red-link">Apply now</strong>
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-6 py-3">
-              <div class="card-next-batch">
-                <div class="d-flex">
-                  <img class="course-icon" src="images/computer-part.png" />
-                  <h4 class="mb-3">
-                    Part Time Web Development Course
-                  </h4>
-                </div>
-                <span class="next-batch-date">
-                  Oct 19, 2020 - Dec 18, 2020
-                </span>
-                <br />
-                <div class="upcoming-batch-cta">
-                  <a
-                    target="_blank"
-                    href="https://www.lewagon.com/singapore/web-development-course/full-time"
-                  >
-                    <strong class="blue-link">Explore course</strong>
-                  </a>
-                  <a
-                    target="_blank"
-                    href="https://www.lewagon.com/singapore/apply"
-                  >
-                    <strong class="red-link">Apply now</strong>
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-6 py-3">
-              <div class="card-next-batch">
-                <div class="d-flex">
-                  <img class="course-icon" src="images/computer.png" />
-                  <h4 class="mb-3">
-                    Full Time Web Development Course
-                  </h4>
-                </div>
-                <span class="next-batch-date">
-                  Oct 19, 2020 - Dec 18, 2020
-                </span>
-                <br />
-                <div class="upcoming-batch-cta">
-                  <a
-                    target="_blank"
-                    href="https://www.lewagon.com/singapore/web-development-course/full-time"
-                  >
-                    <strong class="blue-link">Explore course</strong>
-                  </a>
-                  <a
-                    target="_blank"
-                    href="https://www.lewagon.com/singapore/apply"
-                  >
-                    <strong class="red-link">Apply now</strong>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="testimonials" style="background-color: #fcf5e8;">
-        <div
-          id="carouselExampleControls"
-          class="carousel slide"
-          data-ride="carousel"
+      <ul class="list_section eligible p-0 d-flex flex-column">
+        <a
+        target="_blank"
+        href="https://meetings.hubspot.com/singapore1"
+        class="contact-us-link align-items-center mb-5"
         >
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="container py-5">
-                <div class="hs-testimonial hs-testimonial--top">
-                  <figure
-                    style="
-                      background-image: url('https://info.lewagon.com/hubfs/51464365.jpeg');
-                    "
-                  ></figure>
-                  <blockquote>
-                    <main>
-                      <p>
-                        <span
-                          >Le Wagon has THE BEST INSTRUCTORS. I cannot
-                          understate how much respect and admiration all my
-                          peers have for them. They are passionate, supportive
-                          educators and have clearly all fallen hopelessly in
-                          love with coding.</span
-                        >
-                      </p>
-                    </main>
-                    <footer>
-                      <div class="name">Kaiying Fu</div>
-                      <div class="title">Le Wagon Singapore Graduate</div>
-                    </footer>
-                  </blockquote>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="container py-5">
-                <div class="hs-testimonial hs-testimonial--top">
-                  <figure
-                    style="
-                      background-image: url('https://info.lewagon.com/hubfs/51464365.jpeg');
-                    "
-                  ></figure>
-                  <blockquote>
-                    <main>
-                      <p>
-                        <span
-                          >Le Wagon has THE BEST INSTRUCTORS. I cannot
-                          understate how much respect and admiration all my
-                          peers have for them. They are passionate, supportive
-                          educators and have clearly all fallen hopelessly in
-                          love with coding.</span
-                        >
-                      </p>
-                    </main>
-                    <footer>
-                      <div class="name">Kaiying Fu</div>
-                      <div class="title">Le Wagon Singapore Graduate</div>
-                    </footer>
-                  </blockquote>
-                </div>
-              </div>
-            </div>
+        <img
+        alt="Book a Call"
+        class=""
+        width="40"
+        src="https://cdn2.hubspot.net/hubfs/4419217/Singapore/call.png"
+        />
+        <li class="cta-contact-list text-left" style="border: none;">
+          Book a call
+        </li>
+      </a>
+      <a
+      target="_blank"
+      href="mailto:singapore@lewagon.com"
+      class="contact-us-link align-items-center mb-5"
+      >
+      <img
+      alt="Email us"
+      class=""
+      width="40"
+      src="https://cdn2.hubspot.net/hubfs/4419217/Singapore/mail.png"
+      />
+      <li class="cta-contact-list text-left" style="border: none;">
+        Email us at singapore@lewagon.com
+      </li>
+    </a>
+    <a
+    href="#faq-section"
+    class="contact-us-link align-items-center mb-5"
+    >
+    <img
+    alt="Faq"
+    class=""
+    width="40"
+    src="https://cdn2.hubspot.net/hubfs/4419217/Singapore/Question.png"
+    />
+    <li class="cta-contact-list text-left" style="border: none;">
+      Check the FAQ
+    </li>
+  </a>
+</ul>
+</div>
+</div>
+</div>
+</section>
+
+<div>
+  <section
+  id="upcoming-batches"
+  class="wrapper wrapper-upcoming-batches cream mb-5"
+  data-target="affix-reveal.section"
+  >
+  <h2 class="section_title text-center mt-4">
+    <span class="highlighted-red">Upcoming</span> batches
+  </h2>
+  <!-- Next open full-time baches -->
+  <div class="next-batches container">
+    <div class="row">
+      <div class="col-md-6 py-3">
+        <div class="card-next-batch">
+          <div class="d-flex">
+            <img class="course-icon" src="images/computer.png" />
+            <h4 class="mb-3">
+              Full Time Web Development Course
+            </h4>
           </div>
-          <a
-            class="carousel-control-prev"
-            href="#carouselExampleControls"
-            role="button"
-            data-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
+          <span class="next-batch-date">
+            Aug 3, 2020 - Oct 2, 2020
+          </span>
+          <br />
+          <div class="upcoming-batch-cta">
+            <a
+            target="_blank"
+            href="https://www.lewagon.com/singapore/web-development-course/full-time"
+            >
+            <strong class="blue-link">Explore course</strong>
           </a>
           <a
-            class="carousel-control-next"
-            href="#carouselExampleControls"
-            role="button"
-            data-slide="next"
+          target="_blank"
+          href="https://www.lewagon.com/singapore/apply"
           >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
+          <strong class="red-link">Apply now</strong>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-6 py-3">
+    <div class="card-next-batch">
+      <div class="d-flex">
+        <img class="course-icon" src="images/database.png" />
+        <h4 class="mb-3">
+          Data Science Course
+        </h4>
+      </div>
+      <br />
+      <span class="next-batch-date">
+        Oct 19, 2020 - Dec 18, 2020
+      </span>
+      <br />
+      <div class="upcoming-batch-cta">
+        <a
+        target="_blank"
+        href="https://www.lewagon.com/singapore/web-development-course/full-time"
+        >
+        <strong class="blue-link">Explore course</strong>
+      </a>
+      <a
+      target="_blank"
+      href="https://www.lewagon.com/singapore/apply"
+      >
+      <strong class="red-link">Apply now</strong>
+    </a>
+  </div>
+</div>
+</div>
+
+<div class="col-md-6 py-3">
+  <div class="card-next-batch">
+    <div class="d-flex">
+      <img class="course-icon" src="images/computer-part.png" />
+      <h4 class="mb-3">
+        Part Time Web Development Course
+      </h4>
+    </div>
+    <span class="next-batch-date">
+      Oct 19, 2020 - Dec 18, 2020
+    </span>
+    <br />
+    <div class="upcoming-batch-cta">
+      <a
+      target="_blank"
+      href="https://www.lewagon.com/singapore/web-development-course/full-time"
+      >
+      <strong class="blue-link">Explore course</strong>
+    </a>
+    <a
+    target="_blank"
+    href="https://www.lewagon.com/singapore/apply"
+    >
+    <strong class="red-link">Apply now</strong>
+  </a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6 py-3">
+  <div class="card-next-batch">
+    <div class="d-flex">
+      <img class="course-icon" src="images/computer.png" />
+      <h4 class="mb-3">
+        Full Time Web Development Course
+      </h4>
+    </div>
+    <span class="next-batch-date">
+      Oct 19, 2020 - Dec 18, 2020
+    </span>
+    <br />
+    <div class="upcoming-batch-cta">
+      <a
+      target="_blank"
+      href="https://www.lewagon.com/singapore/web-development-course/full-time"
+      >
+      <strong class="blue-link">Explore course</strong>
+    </a>
+    <a
+    target="_blank"
+    href="https://www.lewagon.com/singapore/apply"
+    >
+    <strong class="red-link">Apply now</strong>
+  </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="testimonials" style="background-color: #fcf5e8;">
+  <div
+  id="carouselExampleControls"
+  class="carousel slide"
+  data-ride="carousel"
+  >
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="container py-5">
+        <div class="hs-testimonial hs-testimonial--top">
+          <figure
+          style="
+          background-image: url('https://info.lewagon.com/hubfs/51464365.jpeg');
+          "
+          ></figure>
+          <blockquote>
+            <main>
+              <p>
+                <span
+                >Le Wagon has THE BEST INSTRUCTORS. I cannot
+                understate how much respect and admiration all my
+                peers have for them. They are passionate, supportive
+                educators and have clearly all fallen hopelessly in
+                love with coding.</span
+                >
+              </p>
+            </main>
+            <footer>
+              <div class="name">Kaiying Fu</div>
+              <div class="title">Le Wagon Singapore Graduate</div>
+            </footer>
+          </blockquote>
         </div>
-      </section>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="container py-5">
+        <div class="hs-testimonial hs-testimonial--top">
+          <figure
+          style="
+          background-image: url('https://avatars0.githubusercontent.com/u/63182619?v=4');
+          "
+          ></figure>
+          <blockquote>
+            <main>
+              <p>
+                <span
+                >Really dug deep - had a hands-on, confidence-building, supportive experience that's worth it!”</span
+                >
+              </p>
+            </main>
+            <footer>
+              <div class="name">Alvin Lim</div>
+              <div class="title">Le Wagon Singapore Graduate</div>
+            </footer>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="container py-5">
+        <div class="hs-testimonial hs-testimonial--top">
+          <figure
+          style="
+          background-image: url('https://avatars3.githubusercontent.com/u/56247097?v=4');
+          "
+          ></figure>
+          <blockquote>
+            <main>
+              <p>
+                <span
+                >I’m so so so glad I did this. I was skeptical at first. A lot of people say bootcamps don’t really work, you’ll forget everything when it’s over, ruby isn’t a “serious” language. To all that I say, don’t knock it until you try it! This bootcamp was beautifully designed to build up your skills and confidence, showcase it all in an app, and all the while you have a wonderful team of instructors to fall back on when you can’t figure out why your margins are weird. I loved it!!!</span
+                >
+              </p>
+            </main>
+            <footer>
+              <div class="name">Vandita Attal</div>
+              <div class="title">Le Wagon Singapore Graduate</div>
+            </footer>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="container py-5">
+        <div class="hs-testimonial hs-testimonial--top">
+          <figure
+          style="
+          background-image: url('https://avatars3.githubusercontent.com/u/56255861?v=4');
+          "
+          ></figure>
+          <blockquote>
+            <main>
+              <p>
+                <span
+                >At the end, we managed to build even more than what we planned initially. It was tough, tiring, but nevertheless rewarding. I personally felt very empowered going through this, because you are basically able to launch almost any app as long as you have the idea for it.</span
+                >
+              </p>
+            </main>
+            <footer>
+              <div class="name">Kevan Koh</div>
+              <div class="title">Le Wagon Singapore Graduate</div>
+            </footer>
+          </blockquote>
+        </div>
+      </div>
     </div>
 
-    <section id="curiculum" class="experience" style="">
-      <div class="container d-flex mb-5 mt-3 py-3">
-        <div class="left w-75 mx-auto">
-          <h2 class="section_title">
-            A <span class="highlighted-red">life-changing</span> experience
-          </h2>
-          <p class="section-text">
-            During our 9-week (full-time) or 24-week (part-time) coding
-            bootcamp, learn the most in-demand skills with motivated students,
-            passionate teachers and a hands-on curriculum teaching you how to
-            build software and solve problems.
-          </p>
-          <div class="video col-md-12">
-            <video
-              style="width: 100%;"
-              height="340"
-              poster="https://cdn2.hubspot.net/hubfs/4419217/Singapore/prev.png"
-              playsinline
-              controls
-            >
-              <source
-                src="https://cdn2.hubspot.net/hubfs/4419217/Singapore/Amanda%20No%20captions.mp4"
-                type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'
-              />
-              >
-            </video>
-          </div>
+  </div>
+  <a
+  class="carousel-control-prev"
+  href="#carouselExampleControls"
+  role="button"
+  data-slide="prev"
+  >
+  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  <span class="sr-only">Previous</span>
+</a>
+<a
+class="carousel-control-next"
+href="#carouselExampleControls"
+role="button"
+data-slide="next"
+>
+<span class="carousel-control-next-icon" aria-hidden="true"></span>
+<span class="sr-only">Next</span>
+</a>
+</div>
+</section>
+</div>
+
+<section id="curiculum" class="experience" style="">
+  <div class="container d-flex mb-5 mt-3 py-3">
+    <div class="left w-75 mx-auto">
+      <h2 class="section_title">
+        A <span class="highlighted-red">life-changing</span> experience
+      </h2>
+      <p class="section-text">
+        During our 9-week (full-time) or 24-week (part-time) coding
+        bootcamp, learn the most in-demand skills with motivated students,
+        passionate teachers and a hands-on curriculum teaching you how to
+        build software and solve problems.
+      </p>
+      <div class="video col-md-12">
+        <video
+        style="width: 100%;"
+        height="340"
+        poster="https://cdn2.hubspot.net/hubfs/4419217/Singapore/prev.png"
+        playsinline
+        controls
+        >
+        <source
+        src="https://cdn2.hubspot.net/hubfs/4419217/Singapore/Amanda%20No%20captions.mp4"
+        type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'
+        />
+        >
+      </video>
+    </div>
+  </div>
+  <div class="right w-20 mx-auto d-flex align-items-center">
+    <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+      <ul class="list_section ml-5 pt-5">
+        <li><strong>7000+</strong><br />graduates</li>
+        <li><strong>38</strong><br />cities</li>
+        <li><strong>100+</strong><br />startup launched</li>
+      </ul>
+    </div>
+  </div>
+</div>
+</section>
+
+
+
+<section id="syllabus_mobile" style="">
+  <div class="container curriculum my-3 pb-5 pt-4">
+    <h2 id="syllabus_mobile-wrap mb-4" class="text-center section_title">
+      Discover our <span class="highlighted-red">bootcamps</span>
+    </h2>
+    <div class="program-cards">
+      <div class="program-card">
+        <div class="program-details">
+          <h3>
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="85" height="85" class="program-card-icon" version="1.1" viewBox="0 0 85 85"><g fill="none" fill-rule="evenodd" stroke="none" stroke-width="1"><g id="icon-web-development"><rect id="web-dev-rect" width="85" height="85" x="0" y="0" fill="#F6F6F6" class="icon-background" rx="9"></rect><path id="Path" fill="#CCC6C6" d="M23.5123711,45.0442995 L29.0227601,45.0442995 L29.0227601,31.4729028 L55.5105756,31.4729028 L55.5105756,45.0442995 L61.0027178,45.0442995 L61.0027178,30.4954174 C60.8999106,29.053412 60.4933659,28.0132386 59.7830839,27.3748973 C59.0728018,26.7365561 57.8122929,26.2785231 56.0015571,26.0007983 L27.9793404,26.0007983 C27.1212391,25.9781793 26.2257333,26.4362123 25.2928229,27.3748973 C24.3599124,28.3135824 23.7664285,29.3537557 23.5123711,30.4954174 L23.5123711,45.0442995 Z" class="icon-path"></path><path id="Path-2" fill="#CCC6C6" d="M21,49.5467167 L63.498854,49.5039976 L63.498854,53.5166041 C63.2382466,54.715161 62.8379521,55.6170209 62.2979706,56.2221839 C61.7579891,56.8273469 60.8247683,57.4199718 59.4983081,58.0000585 L25.0579357,58.0000585 C24.0654457,57.7027198 23.1673804,57.1100949 22.3637398,56.2221839 C21.5600992,55.3342728 21.1055193,54.4324129 21,53.5166041 L21,49.5467167 Z" class="icon-path"></path></g></g></svg>
+            Web Development courses
+          </h3>
+          <p>From the database to the user interface, learn to code your own web applications from scratch and become a full-stack Web Developer.</p>
         </div>
-        <div class="right w-20 mx-auto d-flex align-items-center">
-          <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
-            <ul class="list_section ml-5 pt-5">
-              <li><strong>7000+</strong><br />graduates</li>
-              <li><strong>38</strong><br />cities</li>
-              <li><strong>100+</strong><br />startup launched</li>
+
+        <ul class="multi-format">
+          <li class="home-program">
+            <div class="batch-details">
+              <div class="batch-format">
+                <strong>Full-time (9 weeks)
+                </strong>
+              </div>
+              <span class="batch-date">From Monday to Friday, all day.</span>
+            </div>
+            <div class="ml-4 card-sylabus-btn-container">
+            <a class="cta cta-card" href="/web-development-course/full-time">
+              Download The Syllabus
+            </a>
+
+            </div>
+            </li>
+            <!-- notes(db0sch): Data part-time is not available at the moment. -->
+            <li class="home-program">
+              <div class="batch-details">
+                <div class="batch-format">
+                  <strong>
+                    Part-time (24 weeks)
+
+                  </strong>
+                </div>
+                <span class="batch-date">Flexible hours, same outcome.</span>
+              </div>
+              <div class="ml-4 card-sylabus-btn-container">
+              <a class="cta cta-card" href="/web-development-course/part-time">
+                Download The Syllabus
+              </a>
+
+              </div>
+            </li>
+
+            </ul>
+          </div>
+          <div class="program-card">
+            <div class="program-details">
+              <h3>
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="85" height="85" class="program-card-icon" version="1.1" viewBox="0 0 85 85"><g fill="none" fill-rule="evenodd" stroke="none" stroke-width="1"><g id="icon-data-science"><rect id="Rectangle" width="85" height="85" x="0" y="0" fill="#F6F6F6" class="icon-background" rx="9"></rect><ellipse id="Oval" cx="43" cy="31.5" fill="#CDC6C6" class="icon-path" rx="15" ry="6.5"></ellipse><path id="Oval" fill="#CDC6C6" d="M43,60 C51.2842712,60 58,57.0898509 58,53.5 C58,52.5581886 58,47.6131807 58,38.6649763 C54.422834,40.9033211 49.422834,42.0224935 43,42.0224935 C36.577166,42.0224935 31.577166,40.9033211 28,38.6649763 C28,47.1214323 28,52.0664402 28,53.5 C28,57.0898509 34.7157288,60 43,60 Z" class="icon-path"></path></g></g></svg>
+                Data Science courses
+              </h3>
+              <p>From Python to advanced Machine Learning models, get all the skills to join a Data Science team.</p>
+            </div>
+
+            <ul class="multi-format">
+              <li class="home-program">
+                <div class="batch-details">
+                  <div class="batch-format">
+                    <strong>Full-time (9 weeks)
+                    </strong>
+                  </div>
+                  <span class="batch-date">From Monday to Friday, all day.</span>
+                </div>
+                <div class="ml-4 card-sylabus-btn-container">
+                <a class="cta cta-card" href="/data-science-course/full-time">
+                  Download the Syllabus
+                </a>
+
+                </div>
+              </li>
             </ul>
           </div>
         </div>
       </div>
     </section>
-
-    <section id="syllabus_mobile" style="">
-      <div class="container curriculum my-3 pb-5 pt-4">
-        <h2 id="syllabus_mobile-wrap" class="text-center section_title">
-          Discover our <span class="highlighted-red">bootcamps</span>
-        </h2>
-        <div class="main">
-          <div class="left">
-            <h2 class="course-name">Web Development courses</h2>
-            <div class="accordion" id="accordionFullTime">
-              <div class="curriculum-card">
-                <div class="card-header" id="headingFullTimeOne">
-                  <h2 class="mb-0">
-                    <button
-                      class="btn btn-link btn-block text-left"
-                      type="button"
-                      data-toggle="collapse"
-                      data-target="#collapseFullTimeOne"
-                      aria-expanded="true"
-                      aria-controls="collapseFullTimeOne"
-                    >
-                      <i class="fa fa-plus-square"></i>
-                      <h2>Prepwork ~60h</h2>
-                    </button>
-                  </h2>
-                </div>
-
-                <div
-                  id="collapseFullTimeOne"
-                  class="collapse"
-                  aria-labelledby="headingFullTimeOne"
-                  data-parent="#accordionFullTime"
-                >
-                  <div class="card-body">
-                    Our Web Development Course is very intense. To save time and
-                    nail it from the beginning, our students must complete the
-                    PrepWork on our custom-built platform before starting the
-                    bootcamp. This work takes around 60 hours.
-                  </div>
-                </div>
-              </div>
-
-              <div class="curriculum-card">
-                <div class="card-header" id="headingFullTimeTwo">
-                  <h2 class="mb-0">
-                    <button
-                      class="btn btn-link btn-block text-left collapsed"
-                      type="button"
-                      data-toggle="collapse"
-                      data-target="#collapseFullTimeTwo"
-                      aria-expanded="false"
-                      aria-controls="collapseFullTimeTwo"
-                    >
-                      <i class="fa fa-plus-square"></i>
-                      <h2>Foundations</h2>
-                    </button>
-                  </h2>
-                </div>
-                <div
-                  id="collapseFullTimeTwo"
-                  class="collapse"
-                  aria-labelledby="headingTwo"
-                  data-parent="#accordionFullTime"
-                >
-                  <div class="card-body">
-                    <ul>
-                      <li>Developer tools & workflow</li>
-                      <li>Programming Basics in Ruby</li>
-                      <li>Objected Oriented Programming (OOP)</li>
-                      <li>Database, SQL & ORM</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-
-              <div class="curriculum-card">
-                <div class="card-header" id="headingFullTimeThree">
-                  <h2 class="mb-0">
-                    <button
-                      class="btn btn-link btn-block text-left collapsed"
-                      type="button"
-                      data-toggle="collapse"
-                      data-target="#collapseFullTimeThree"
-                      aria-expanded="false"
-                      aria-controls="collapseFullTimeThree"
-                    >
-                      <i class="fa fa-plus-square"></i>
-                      <h2>Web Development</h2>
-                    </button>
-                  </h2>
-                </div>
-                <div
-                  id="collapseFullTimeThree"
-                  class="collapse"
-                  aria-labelledby="headingThree"
-                  data-parent="#accordionFullTime"
-                >
-                  <div class="card-body">
-                    <ul>
-                      <li>Frontend Development</li>
-                      <li>JavaScript (ES6)</li>
-                      <li>Ruby on Rails</li>
-                      <li>Cloning Airbnb in teams</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-
-              <div class="curriculum-card">
-                <div class="card-header" id="headingFullTimeFour">
-                  <h2 class="mb-0">
-                    <button
-                      class="btn btn-link btn-block text-left collapsed"
-                      type="button"
-                      data-toggle="collapse"
-                      data-target="#collapseFullTimeFour"
-                      aria-expanded="false"
-                      aria-controls="collapseFullTimeFour"
-                    >
-                      <i class="fa fa-plus-square"></i>
-                      <h2>Projects</h2>
-                    </button>
-                  </h2>
-                </div>
-                <div
-                  id="collapseFullTimeFour"
-                  class="collapse"
-                  aria-labelledby="headingFour"
-                  data-parent="#accordionFullTime"
-                >
-                  <div class="card-body">
-                    <p>
-                      Turn an idea into a product in 2 weeks
-                    </p>
-                    <ul>
-                      <li>
-                        Define the Product's target users and unique value
-                        proposition
-                      </li>
-                      <li>
-                        Build an interactive prototype with Figma to validate
-                        the UX
-                      </li>
-                      <li>
-                        Split the work in your teams by defining and assigning
-                        user stories
-                      </li>
-                      <li>
-                        Code the web application from scratch: from the back-end
-                        to the user interface
-                      </li>
-                      <li>Deploy your app on a production environment</li>
-                      <li>Pitch your product during the Demo Day!</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-
-              <div class="curriculum-card">
-                <div class="card-header" id="headingFullTimeFive">
-                  <h2 class="mb-0">
-                    <button
-                      class="btn btn-link btn-block text-left collapsed"
-                      type="button"
-                      data-toggle="collapse"
-                      data-target="#collapseFullTimeFive"
-                      aria-expanded="false"
-                      aria-controls="collapseFullTimeFive"
-                    >
-                      <i class="fa fa-plus-square"></i>
-                      <h2>Lifelong learning</h2>
-                    </button>
-                  </h2>
-                </div>
-                <div
-                  id="collapseFullTimeFive"
-                  class="collapse"
-                  aria-labelledby="headingFive"
-                  data-parent="#accordionFullTime"
-                >
-                  <div class="card-body">
-                    <ul>
-                      <li>Career Services</li>
-                      <li>React.js Extension Course</li>
-                      <li>Lifelong Access to our Online Platform</li>
-                      <li>Slack & Community</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="cta-link-container">
-              <button
-                type="button"
-                class="banner-button-white modal-form-btn"
-                data-toggle="modal"
-                data-target="#syllabusModal"
-              >
-                Download the Syllabus
-              </button>
-
-              <!--         <a class="banner-button-white" href="https://www.lewagon.com/singapore/web-development-course/full-time" target="_blank">Download the Syllabus</a> -->
-            </div>
-          </div>
-
-          <div class="right">
-            <h2 class="course-name">Data Science courses</h2>
-            <div class="accordion" id="accordionData">
-              <div class="curriculum-card">
-                <div class="card-header" id="headingDataOne">
-                  <h2 class="mb-0">
-                    <button
-                      class="btn btn-link btn-block text-left"
-                      type="button"
-                      data-toggle="collapse"
-                      data-target="#collapseDataOne"
-                      aria-expanded="true"
-                      aria-controls="collapseDataOne"
-                    >
-                      <i class="fa fa-plus-square"></i>
-                      <h2>Prepwork ~60h</h2>
-                    </button>
-                  </h2>
-                </div>
-
-                <div
-                  id="collapseDataOne"
-                  class="collapse"
-                  aria-labelledby="headingOne"
-                  data-parent="#accordionData"
-                >
-                  <div class="card-body">
-                    Our Web Development Course is very intense. To save time and
-                    nail it from the beginning, our students must complete the
-                    PrepWork on our custom-built platform before starting the
-                    bootcamp. This work takes around 60 hours.
-                  </div>
-                </div>
-              </div>
-
-              <div class="curriculum-card">
-                <div class="card-header" id="headingDataTwo">
-                  <h2 class="mb-0">
-                    <button
-                      class="btn btn-link btn-block text-left collapsed"
-                      type="button"
-                      data-toggle="collapse"
-                      data-target="#collapseDataTwo"
-                      aria-expanded="false"
-                      aria-controls="collapseDataTwo"
-                    >
-                      <i class="fa fa-plus-square"></i>
-                      <h2>Foundations</h2>
-                    </button>
-                  </h2>
-                </div>
-                <div
-                  id="collapseDataTwo"
-                  class="collapse"
-                  aria-labelledby="headingTwo"
-                  data-parent="#accordionData"
-                >
-                  <div class="card-body">
-                    <ul>
-                      <li>Developer tools & workflow</li>
-                      <li>Programming Basics in Ruby</li>
-                      <li>Objected Oriented Programming (OOP)</li>
-                      <li>Database, SQL & ORM</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-
-              <div class="curriculum-card">
-                <div class="card-header" id="headingDataThree">
-                  <h2 class="mb-0">
-                    <button
-                      class="btn btn-link btn-block text-left collapsed"
-                      type="button"
-                      data-toggle="collapse"
-                      data-target="#collapseDataThree"
-                      aria-expanded="false"
-                      aria-controls="collapseDataThree"
-                    >
-                      <i class="fa fa-plus-square"></i>
-                      <h2>Web Development</h2>
-                    </button>
-                  </h2>
-                </div>
-                <div
-                  id="collapseDataThree"
-                  class="collapse"
-                  aria-labelledby="headingThree"
-                  data-parent="#accordionData"
-                >
-                  <div class="card-body">
-                    <ul>
-                      <li>Frontend Development</li>
-                      <li>JavaScript (ES6)</li>
-                      <li>Ruby on Rails</li>
-                      <li>Cloning Airbnb in teams</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-
-              <div class="curriculum-card">
-                <div class="card-header" id="headingDataFour">
-                  <h2 class="mb-0">
-                    <button
-                      class="btn btn-link btn-block text-left collapsed"
-                      type="button"
-                      data-toggle="collapse"
-                      data-target="#collapseDataFour"
-                      aria-expanded="false"
-                      aria-controls="collapseDataFour"
-                    >
-                      <i class="fa fa-plus-square"></i>
-                      <h2>Projects</h2>
-                    </button>
-                  </h2>
-                </div>
-                <div
-                  id="collapseDataFour"
-                  class="collapse collapse-four"
-                  aria-labelledby="headingFour"
-                  data-parent="#accordionData"
-                >
-                  <div class="card-body">
-                    <p>
-                      Turn an idea into a product in 2 weeks
-                    </p>
-                    <ul>
-                      <li>
-                        Define the Product's target users and unique value
-                        proposition
-                      </li>
-                      <li>
-                        Build an interactive prototype with Figma to validate
-                        the UX
-                      </li>
-                      <li>
-                        Split the work in your teams by defining and assigning
-                        user stories
-                      </li>
-                      <li>
-                        Code the web application from scratch: from the back-end
-                        to the user interface
-                      </li>
-                      <li>Deploy your app on a production environment</li>
-                      <li>Pitch your product during the Demo Day!</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-
-              <div class="curriculum-card">
-                <div class="card-header" id="headingDataFive">
-                  <h2 class="mb-0">
-                    <button
-                      class="btn btn-link btn-block text-left collapsed"
-                      type="button"
-                      data-toggle="collapse"
-                      data-target="#collapseDataFive"
-                      aria-expanded="false"
-                      aria-controls="collapseDataFive"
-                    >
-                      <i class="fa fa-plus-square"></i>
-                      <h2>Lifelong learning</h2>
-                    </button>
-                  </h2>
-                </div>
-                <div
-                  id="collapseDataFive"
-                  class="collapse"
-                  aria-labelledby="headingFive"
-                  data-parent="#accordionData"
-                >
-                  <div class="card-body">
-                    <ul>
-                      <li>Career Services</li>
-                      <li>React.js Extension Course</li>
-                      <li>Lifelong Access to our Online Platform</li>
-                      <li>Slack & Community</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="cta-link-container">
-              <button
-                type="button"
-                class="banner-button-white modal-form-btn"
-                data-toggle="modal"
-                data-target="#syllabusModal"
-              >
-                Download the Syllabus
-              </button>
-
-              <!--         <a class="banner-button-white" href="https://www.lewagon.com/singapore/web-development-course/full-time" target="_blank">Download the Syllabus</a> -->
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
     <section id="alumni">
       <div class="container">
         <h2 class="text-center section_title">
@@ -850,141 +574,140 @@
         <div class="logo-grids">
           <div class="logo-box">
             <img
-              alt="3Dinnotech"
-              class="lozad"
-              src="https://i.ibb.co/fpmHWyw/3dinnotech.png"
-              data-loaded="true"
+            alt="3Dinnotech"
+            class="lozad"
+            src="https://i.ibb.co/fpmHWyw/3dinnotech.png"
+            data-loaded="true"
             />
           </div>
           <div class="logo-box">
             <img
-              alt="365"
-              class="lozad"
-              src="https://i.ibb.co/fFNDDqm/365.png"
-              width="200"
-              data-loaded="true"
+            alt="365"
+            class="lozad"
+            src="https://i.ibb.co/fFNDDqm/365.png"
+            width="200"
+            data-loaded="true"
             />
           </div>
           <div class="logo-box">
             <img
-              alt="Blablacar"
-              class="lozad"
-              src="https://i.ibb.co/q1jr2DF/blablacar.png"
-              width="200"
-              data-loaded="true"
+            alt="Blablacar"
+            class="lozad"
+            src="https://i.ibb.co/q1jr2DF/blablacar.png"
+            width="200"
+            data-loaded="true"
             />
           </div>
           <div class="logo-box">
             <img
-              alt="booking"
-              class="lozad"
-              src="https://i.ibb.co/CVymy0m/booking.png"
-              width="200"
-              data-loaded="true"
+            alt="booking"
+            class="lozad"
+            src="https://i.ibb.co/CVymy0m/booking.png"
+            width="200"
+            data-loaded="true"
             />
           </div>
           <div class="logo-box">
             <img
-              alt="Decathlon"
-              class="lozad"
-              src="https://i.ibb.co/tzWdbmw/decathlon.png"
-              width="200"
-              data-loaded="true"
+            alt="Decathlon"
+            class="lozad"
+            src="https://i.ibb.co/tzWdbmw/decathlon.png"
+            width="200"
+            data-loaded="true"
             />
           </div>
           <div class="logo-box">
             <img
-              alt="Facebook"
-              class="lozad"
-              src="https://i.ibb.co/8B3f7Vy/facebook-logo-png-1722.png"
-              width="200"
-              data-loaded="true"
+            alt="Facebook"
+            class="lozad"
+            src="https://i.ibb.co/8B3f7Vy/facebook-logo-png-1722.png"
+            width="200"
+            data-loaded="true"
             />
           </div>
           <div class="logo-box">
             <img
-              alt="Google"
-              class="lozad"
-              src="https://i.ibb.co/HLy4936/google.png"
-              width="200"
-              data-loaded="true"
+            alt="Google"
+            class="lozad"
+            src="https://i.ibb.co/HLy4936/google.png"
+            width="200"
+            data-loaded="true"
             />
           </div>
           <div class="logo-box">
             <img
-              class="Lozad"
-              src="https://i.ibb.co/GV08PDw/haaretz.png"
-              width="200"
-              data-loaded="true"
+            class="Lozad"
+            src="https://i.ibb.co/GV08PDw/haaretz.png"
+            width="200"
+            data-loaded="true"
             />
           </div>
           <div class="logo-box">
             <img
-              alt="Ikea"
-              class="lozad"
-              src="https://i.ibb.co/7pQ3NWK/Ikea-logo.png"
-              width="200"
-              data-loaded="true"
+            alt="Ikea"
+            class="lozad"
+            src="https://i.ibb.co/7pQ3NWK/Ikea-logo.png"
+            width="200"
+            data-loaded="true"
             />
           </div>
           <div class="logo-box">
             <img
-              alt="Kirokobo"
-              class="lozad"
-              src="https://i.ibb.co/5Mdh7T9/kirobo.png"
-              width="200"
-              data-loaded="true"
+            alt="Kirokobo"
+            class="lozad"
+            src="https://i.ibb.co/5Mdh7T9/kirobo.png"
+            width="200"
+            data-loaded="true"
             />
           </div>
           <div class="logo-box">
             <img
-              alt="Makompro"
-              class="lozad"
-              src="https://i.ibb.co/xFHxn80/makompro.png"
-              width="200"
-              data-loaded="true"
+            alt="Makompro"
+            class="lozad"
+            src="https://i.ibb.co/xFHxn80/makompro.png"
+            width="200"
+            data-loaded="true"
             />
           </div>
           <div class="logo-box">
             <img
-              alt="Microsoft"
-              class="lozad"
-              src="https://i.ibb.co/vJ3px2v/microsoft.png"
-              width="200"
-              data-loaded="true"
+            alt="Microsoft"
+            class="lozad"
+            src="https://i.ibb.co/vJ3px2v/microsoft.png"
+            width="200"
+            data-loaded="true"
             />
           </div>
           <div class="logo-box">
             <img
-              alt="Vonage"
-              class="lozad"
-              src="https://i.ibb.co/Cn6Jn80/Vonage-Logo.png"
-              width="200"
-              data-loaded="true"
+            alt="Vonage"
+            class="lozad"
+            src="https://i.ibb.co/Cn6Jn80/Vonage-Logo.png"
+            width="200"
+            data-loaded="true"
             />
           </div>
           <div class="logo-box">
             <img
-              alt="Walkme"
-              class="lozad"
-              src="https://i.ibb.co/BGPLJfN/walkme-logo.png"
-              width="200"
-              data-loaded="true"
+            alt="Walkme"
+            class="lozad"
+            src="https://i.ibb.co/BGPLJfN/walkme-logo.png"
+            width="200"
+            data-loaded="true"
             />
           </div>
           <div class="logo-box">
             <img
-              alt="WebsPlanet"
-              class="lozad"
-              src="https://i.ibb.co/2MLRDyh/websplanet.png"
-              width="200"
-              data-loaded="true"
+            alt="WebsPlanet"
+            class="lozad"
+            src="https://i.ibb.co/2MLRDyh/websplanet.png"
+            width="200"
+            data-loaded="true"
             />
           </div>
         </div>
       </div>
     </section>
-
     <section id="syllabus_mobile" style="">
       <div class="container my-3 pb-5 pt-4">
         <h2 id="faq-section" class="text-center section_title">
@@ -996,563 +719,563 @@
             <div class="card-header" id="headingFAQ-1">
               <h2 class="mb-0">
                 <button
-                  class="btn btn-link btn-block text-left collapsed"
-                  type="button"
-                  data-toggle="collapse"
-                  data-target="#collapseFAQ-1"
-                  aria-expanded="false"
-                  aria-controls="collapseFAQ-1"
+                class="btn btn-link btn-block text-left collapsed"
+                type="button"
+                data-toggle="collapse"
+                data-target="#collapseFAQ-1"
+                aria-expanded="false"
+                aria-controls="collapseFAQ-1"
                 >
-                  <i class="fa fa-plus-square"></i>
-                  <h2>What is TIPP?</h2>
-                </button>
-              </h2>
-            </div>
-
-            <div
-              id="collapseFAQ-1"
-              class="collapse"
-              aria-labelledby="headingFAQ-1"
-              data-parent="#accordionFAQ"
-            >
-              <div class="card-body">
-                <strong
-                  >The Tech Immersion and Placement Programme (TIPP)</strong
-                >
-                is a grant given by the Singapore government organization
-                <strong>Infocomm Media Development Authority (IMDA)</strong>
-                with the aim to massively support the education needed to place
-                people into tech positions. IMDA partners with industry experts
-                to offer short intensive and immersive training programmes to
-                further develop the Singaporean tech industry.
-              </div>
-            </div>
-          </div>
-
-          <div class="curriculum-card">
-            <div class="card-header" id="headingFAQ-2">
-              <h2 class="mb-0">
-                <button
-                  class="btn btn-link btn-block text-left collapsed"
-                  type="button"
-                  data-toggle="collapse"
-                  data-target="#collapseFAQ-2"
-                  aria-expanded="false"
-                  aria-controls="collapseFAQ-2"
-                >
-                  <i class="fa fa-plus-square"></i>
-                  <h2>Who can apply for TIPP?</h2>
-                </button>
-              </h2>
-            </div>
-
-            <div
-              id="collapseFAQ-2"
-              class="collapse"
-              aria-labelledby="headingFAQ-2"
-              data-parent="#accordionFAQ"
-            >
-              <div class="card-body">
-                Singaporeans and PRs who are fresh grads, mid-career switchers
-                or IT professionals and want to up-skill for a new tech position
-                or have a passion to join or build a tech start-up.
-              </div>
-            </div>
-          </div>
-
-          <div class="curriculum-card">
-            <div class="card-header" id="headingFAQ-3">
-              <h2 class="mb-0">
-                <button
-                  class="btn btn-link btn-block text-left collapsed"
-                  type="button"
-                  data-toggle="collapse"
-                  data-target="#collapseFAQ-3"
-                  aria-expanded="false"
-                  aria-controls="collapseFAQ-3"
-                >
-                  <i class="fa fa-plus-square"></i>
-                  <h2>Will I have to apply for TIPP myself?</h2>
-                </button>
-              </h2>
-            </div>
-
-            <div
-              id="collapseFAQ-3"
-              class="collapse"
-              aria-labelledby="headingFAQ-3"
-              data-parent="#accordionFAQ"
-            >
-              <div class="card-body">
-                No. During the application process to join the Le Wagon bootcamp
-                we will check if you are eligible for TIPP and get final
-                approval from IMDA for you.
-              </div>
-            </div>
-          </div>
-
-          <div class="curriculum-card">
-            <div class="card-header" id="headingFAQ-4">
-              <h2 class="mb-0">
-                <button
-                  class="btn btn-link btn-block text-left collapsed"
-                  type="button"
-                  data-toggle="collapse"
-                  data-target="#collapseFAQ-4"
-                  aria-expanded="false"
-                  aria-controls="collapseFAQ-4"
-                >
-                  <i class="fa fa-plus-square"></i>
-                  <h2>What are the criteria to be eligible for TIPP?</h2>
-                </button>
-              </h2>
-            </div>
-
-            <div
-              id="collapseFAQ-4"
-              class="collapse"
-              aria-labelledby="headingFAQ-4"
-              data-parent="#accordionFAQ"
-            >
-              <div class="card-body">
-                <ul>
-                  <li>
-                    Intention to find a tech job or build a start-up after the
-                    bootcamp.
-                  </li>
-                  <li>
-                    No previous formal education or work experience in web
-                    development.
-                  </li>
-                  <li>
-                    Not previously benefitted from a TIPP subsidized training
-                    program.
-                  </li>
-                  <li>
-                    Remainder of tuition fee to be paid from personal funds (not
-                    company sponsored).
-                  </li>
-                </ul>
-                *Further criteria might apply. If in doubt with any of the above
-                please check with us!
-              </div>
-            </div>
-          </div>
-
-          <div class="curriculum-card">
-            <div class="card-header" id="headingFAQ-5">
-              <h2 class="mb-0">
-                <button
-                  class="btn btn-link btn-block text-left collapsed"
-                  type="button"
-                  data-toggle="collapse"
-                  data-target="#collapseFAQ-5"
-                  aria-expanded="false"
-                  aria-controls="collapseFAQ-5"
-                >
-                  <i class="fa fa-plus-square"></i>
-                  <h2>How much of the tuition fee will TIPP subsidize?</h2>
-                </button>
-              </h2>
-            </div>
-
-            <div
-              id="collapseFAQ-5"
-              class="collapse"
-              aria-labelledby="headingFAQ-5"
-              data-parent="#accordionFAQ"
-            >
-              <div class="card-body">
-                TIPP will subsidize up to 70%.
-                <ul>
-                  <li>Tuition fee: SGD 10,000</li>
-                  <li>TIPP subsidy: SGD 7,000</li>
-                  <li>Payable amount: SGD 3,000</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <div class="curriculum-card">
-            <div class="card-header" id="headingFAQ-6">
-              <h2 class="mb-0">
-                <button
-                  class="btn btn-link btn-block text-left collapsed"
-                  type="button"
-                  data-toggle="collapse"
-                  data-target="#collapseFAQ-6"
-                  aria-expanded="false"
-                  aria-controls="collapseFAQ-6"
-                >
-                  <i class="fa fa-plus-square"></i>
-                  <h2>When is the payable amount due?</h2>
-                </button>
-              </h2>
-            </div>
-
-            <div
-              id="collapseFAQ-6"
-              class="collapse"
-              aria-labelledby="headingFAQ-6"
-              data-parent="#accordionFAQ"
-            >
-              <div class="card-body">
-                Once you are accepted for TIPP your payable amount of $3,000 is
-                split in two installments. The first installment of $2,000 is
-                due upon signing the student contract. The second installment of
-                $1,000 is due 15 days before the bootcamp start date.
-              </div>
-            </div>
-          </div>
-
-          <div class="curriculum-card">
-            <div class="card-header" id="headingFAQ-7">
-              <h2 class="mb-0">
-                <button
-                  class="btn btn-link btn-block text-left collapsed"
-                  type="button"
-                  data-toggle="collapse"
-                  data-target="#collapseFAQ-7"
-                  aria-expanded="false"
-                  aria-controls="collapseFAQ-7"
-                >
-                  <i class="fa fa-plus-square"></i>
-                  <h2>
-                    Will I get a higher subsidy if I am 40 years and above?
-                  </h2>
-                </button>
-              </h2>
-            </div>
-
-            <div
-              id="collapseFAQ-7"
-              class="collapse"
-              aria-labelledby="headingFAQ-7"
-              data-parent="#accordionFAQ"
-            >
-              <div class="card-body">
-                You might qualify for a higher subsidy but it's subject to a
-                case by case approval. Please check with us.
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="cta-link-container">
-          <a
-            class="banner-button-red"
-            target="_blank"
-            href="https://www.lewagon.com/singapore/apply"
-            >Apply Now</a
-          >
-        </div>
-      </div>
-    </section>
-
-    <section class="" style="">
-      <div class="container pb-5">
-        <h2 class="section_title text-center">
-          Private <span class="highlighted-red">Education</span> Institution
-        </h2>
-        <p class="section-text">
-          The registered Private Education Institution (PEI), SEA CODING
-          ACADEMY, is the operator of the Le Wagon Coding Bootcamp in Singapore.
-        </p>
-        <div class="row">
-          <div class="col-md-6 mb-4">
-            <div class="education-card">
-              <h3>General</h3>
-              <ul>
-                <li><strong>Registration number:</strong><br />201832121K</li>
-                <li>
-                  <strong>Registration period:</strong><br />Mar 7, 2019 to Mar
-                  6, 2021
-                </li>
-                <li>
-                  <strong>Registered office:</strong><br />51 Goldhill Plaza,
-                  #07-10/1, Singapore 308900
-                </li>
-                <li><strong>Manager:</strong><br />Dirk Schuler</li>
-                <li>
-                  <strong>Academic and Examination Board:</strong><br />Dirk
-                  Schuler, Audrey Wong, Guido Caldara
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md-6 mb-4">
-            <div class="education-card">
-              <h3>Classroom</h3>
-              <ul>
-                <li>
-                  <strong>Address:</strong><br />360 Orchard Road, #08-02,
-                  Singapore 238869
-                </li>
-                <li>
-                  <strong>Facilities:</strong><br />85m2 classroom, Wifi, AC,
-                  Projector
-                </li>
-                <li>
-                  <strong>Equipment:</strong><br />Students to bring their own
-                  laptop
-                </li>
-                <li>
-                  <strong>Student-Teacher ration:</strong><br />Maximum 7:1
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="wrapper-referrers" style="background-color: #fcfaf8;">
-      <div class="container mt-5">
-        <h2 class="title_review section_title text-center">
-          The <span class="highlighted-red">No.1</span> coding bootcamp
-        </h2>
-        <p class="section-text">
-          Le Wagon is the #1 ranked coding bootcamp worldwide. We’re trusted by
-          hundreds of students in 39 campuses all over the world to give people
-          the best quality tech education.
-        </p>
-        <div class="switchup-content-city">
-          <img
-            alt="Switchup"
-            class="lozad coursereport"
-            data-src="https://dwj199mwkel52.cloudfront.net/assets/core/referrers/badge-switchup-city-f5eeb08c02bc0b196ff34ce6cb6a059bbc3509417078f2b441334cee6c918f3c.png"
-            alt="#1 ranked coding bootcamp in Singapore on Switchup"
-            src="https://dwj199mwkel52.cloudfront.net/assets/core/referrers/badge-switchup-city-f5eeb08c02bc0b196ff34ce6cb6a059bbc3509417078f2b441334cee6c918f3c.png"
-            data-loaded="true"
-          />
-          <p>
-            For the fourth year in a row, Le Wagon is
-            <a
-              href="https://www.switchup.org/rankings/best-coding-bootcamps"
-              target="_blank"
-              >ranked #1 coding bootcamp worldwide on Switchup</a
-            >
-            according to student reviews! We feel blessed and honoured to have
-            enabled them - and to keep enabling our students - to become
-            autonomous in coding, upskill in their career or launch their own
-            startups.
-          </p>
-        </div>
-
-        <span class="section-label"
-          >What they think about our coding bootcamps</span
-        >
-        <div class="referrers">
-          <div class="referrer">
-            <img
-              alt="Switchup"
-              class="lozad switchup"
-              data-src="https://dwj199mwkel52.cloudfront.net/assets/core/referrers/switchup-b720724d6624ec0fdcdbb11106a5c52f2ad988d8477a2a9f0bae9886464ff9b0.png"
-              alt="Switchup logo"
-              src="https://dwj199mwkel52.cloudfront.net/assets/core/referrers/switchup-b720724d6624ec0fdcdbb11106a5c52f2ad988d8477a2a9f0bae9886464ff9b0.png"
-              data-loaded="true"
-            />
-            <div class="referrer-data">
-              <span>N°1 Coding Bootcamp<br />on Switchup</span>
-              <i>
-                <abbr>4.99/5</abbr>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  xmlns:xlink="http://www.w3.org/1999/xlink"
-                  id="star-ranking"
-                  width="50"
-                  height="10"
-                  aria-labelledby="star-ranking-title"
-                  role="img"
-                  version="1.1"
-                  viewBox="0 0 85 16"
-                >
-                  <title id="star-ranking-title">5 stars ranking</title>
-                  <g
-                    fill="none"
-                    fill-rule="evenodd"
-                    stroke="none"
-                    stroke-width="1"
-                  >
-                    <g
-                      id="stars"
-                      fill="#111"
-                      fill-rule="nonzero"
-                      transform="translate(-1.000000, 0.000000)"
-                    >
-                      <g id="star">
-                        <path
-                          id="Path"
-                          d="M16.144,5.438 L11.828,4.811 L9.897,0.9 C9.559,0.217 8.441,0.217 8.103,0.9 L6.173,4.811 L1.856,5.438 C1.039,5.557 0.708,6.565 1.302,7.145 L4.426,10.189 L3.689,14.488 C3.55,15.302 4.406,15.927 5.14,15.542 L9,13.513 L12.861,15.543 C13.589,15.924 14.452,15.309 14.312,14.489 L13.575,10.19 L16.699,7.146 C17.292,6.565 16.961,5.557 16.144,5.438 Z"
-                        ></path>
-                      </g>
-                      <g id="star" transform="translate(18.000000, 0.000000)">
-                        <path
-                          id="Path"
-                          d="M16.144,5.438 L11.828,4.811 L9.897,0.9 C9.559,0.217 8.441,0.217 8.103,0.9 L6.173,4.811 L1.856,5.438 C1.039,5.557 0.708,6.565 1.302,7.145 L4.426,10.189 L3.689,14.488 C3.55,15.302 4.406,15.927 5.14,15.542 L9,13.513 L12.861,15.543 C13.589,15.924 14.452,15.309 14.312,14.489 L13.575,10.19 L16.699,7.146 C17.292,6.565 16.961,5.557 16.144,5.438 Z"
-                        ></path>
-                      </g>
-                      <g id="star" transform="translate(35.000000, 0.000000)">
-                        <path
-                          id="Path"
-                          d="M16.144,5.438 L11.828,4.811 L9.897,0.9 C9.559,0.217 8.441,0.217 8.103,0.9 L6.173,4.811 L1.856,5.438 C1.039,5.557 0.708,6.565 1.302,7.145 L4.426,10.189 L3.689,14.488 C3.55,15.302 4.406,15.927 5.14,15.542 L9,13.513 L12.861,15.543 C13.589,15.924 14.452,15.309 14.312,14.489 L13.575,10.19 L16.699,7.146 C17.292,6.565 16.961,5.557 16.144,5.438 Z"
-                        ></path>
-                      </g>
-                      <g id="star" transform="translate(52.000000, 0.000000)">
-                        <path
-                          id="Path"
-                          d="M16.144,5.438 L11.828,4.811 L9.897,0.9 C9.559,0.217 8.441,0.217 8.103,0.9 L6.173,4.811 L1.856,5.438 C1.039,5.557 0.708,6.565 1.302,7.145 L4.426,10.189 L3.689,14.488 C3.55,15.302 4.406,15.927 5.14,15.542 L9,13.513 L12.861,15.543 C13.589,15.924 14.452,15.309 14.312,14.489 L13.575,10.19 L16.699,7.146 C17.292,6.565 16.961,5.557 16.144,5.438 Z"
-                        ></path>
-                      </g>
-                      <g id="star" transform="translate(69.000000, 0.000000)">
-                        <path
-                          id="Path"
-                          d="M16.144,5.438 L11.828,4.811 L9.897,0.9 C9.559,0.217 8.441,0.217 8.103,0.9 L6.173,4.811 L1.856,5.438 C1.039,5.557 0.708,6.565 1.302,7.145 L4.426,10.189 L3.689,14.488 C3.55,15.302 4.406,15.927 5.14,15.542 L9,13.513 L12.861,15.543 C13.589,15.924 14.452,15.309 14.312,14.489 L13.575,10.19 L16.699,7.146 C17.292,6.565 16.961,5.557 16.144,5.438 Z"
-                        ></path>
-                      </g>
-                    </g>
-                  </g>
-                </svg>
-                <a
-                  target="_blank"
-                  class="blue-link"
-                  href="https://www.switchup.org/bootcamps/le-wagon#tablist-tab-review"
-                  ><abbr itemprop="votes">1371</abbr> reviews</a
-                >
-              </i>
-            </div>
-          </div>
-          <div class="referrer">
-            <img
-              alt="CourseReport"
-              class="lozad coursereport"
-              data-src="https://dwj199mwkel52.cloudfront.net/assets/core/referrers/coursereport-a74c4a43e2b9f549c332e8be922d7c301dc9459c138c474173adda71e60f1f75.png"
-              alt="Coursereport logo"
-              src="https://dwj199mwkel52.cloudfront.net/assets/core/referrers/coursereport-a74c4a43e2b9f549c332e8be922d7c301dc9459c138c474173adda71e60f1f75.png"
-              data-loaded="true"
-            />
-            <div class="referrer-data">
-              <span>N°1 Coding Bootcamp<br />on Coursereport</span>
-              <i>
-                <abbr>4.96/5</abbr>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  xmlns:xlink="http://www.w3.org/1999/xlink"
-                  id="star-ranking"
-                  width="50"
-                  height="10"
-                  aria-labelledby="star-ranking-title"
-                  role="img"
-                  version="1.1"
-                  viewBox="0 0 85 16"
-                >
-                  <title id="star-ranking-title">5 stars ranking</title>
-                  <g
-                    fill="none"
-                    fill-rule="evenodd"
-                    stroke="none"
-                    stroke-width="1"
-                  >
-                    <g
-                      id="stars"
-                      fill="#111"
-                      fill-rule="nonzero"
-                      transform="translate(-1.000000, 0.000000)"
-                    >
-                      <g id="star">
-                        <path
-                          id="Path"
-                          d="M16.144,5.438 L11.828,4.811 L9.897,0.9 C9.559,0.217 8.441,0.217 8.103,0.9 L6.173,4.811 L1.856,5.438 C1.039,5.557 0.708,6.565 1.302,7.145 L4.426,10.189 L3.689,14.488 C3.55,15.302 4.406,15.927 5.14,15.542 L9,13.513 L12.861,15.543 C13.589,15.924 14.452,15.309 14.312,14.489 L13.575,10.19 L16.699,7.146 C17.292,6.565 16.961,5.557 16.144,5.438 Z"
-                        ></path>
-                      </g>
-                      <g id="star" transform="translate(18.000000, 0.000000)">
-                        <path
-                          id="Path"
-                          d="M16.144,5.438 L11.828,4.811 L9.897,0.9 C9.559,0.217 8.441,0.217 8.103,0.9 L6.173,4.811 L1.856,5.438 C1.039,5.557 0.708,6.565 1.302,7.145 L4.426,10.189 L3.689,14.488 C3.55,15.302 4.406,15.927 5.14,15.542 L9,13.513 L12.861,15.543 C13.589,15.924 14.452,15.309 14.312,14.489 L13.575,10.19 L16.699,7.146 C17.292,6.565 16.961,5.557 16.144,5.438 Z"
-                        ></path>
-                      </g>
-                      <g id="star" transform="translate(35.000000, 0.000000)">
-                        <path
-                          id="Path"
-                          d="M16.144,5.438 L11.828,4.811 L9.897,0.9 C9.559,0.217 8.441,0.217 8.103,0.9 L6.173,4.811 L1.856,5.438 C1.039,5.557 0.708,6.565 1.302,7.145 L4.426,10.189 L3.689,14.488 C3.55,15.302 4.406,15.927 5.14,15.542 L9,13.513 L12.861,15.543 C13.589,15.924 14.452,15.309 14.312,14.489 L13.575,10.19 L16.699,7.146 C17.292,6.565 16.961,5.557 16.144,5.438 Z"
-                        ></path>
-                      </g>
-                      <g id="star" transform="translate(52.000000, 0.000000)">
-                        <path
-                          id="Path"
-                          d="M16.144,5.438 L11.828,4.811 L9.897,0.9 C9.559,0.217 8.441,0.217 8.103,0.9 L6.173,4.811 L1.856,5.438 C1.039,5.557 0.708,6.565 1.302,7.145 L4.426,10.189 L3.689,14.488 C3.55,15.302 4.406,15.927 5.14,15.542 L9,13.513 L12.861,15.543 C13.589,15.924 14.452,15.309 14.312,14.489 L13.575,10.19 L16.699,7.146 C17.292,6.565 16.961,5.557 16.144,5.438 Z"
-                        ></path>
-                      </g>
-                      <g id="star" transform="translate(69.000000, 0.000000)">
-                        <path
-                          id="Path"
-                          d="M16.144,5.438 L11.828,4.811 L9.897,0.9 C9.559,0.217 8.441,0.217 8.103,0.9 L6.173,4.811 L1.856,5.438 C1.039,5.557 0.708,6.565 1.302,7.145 L4.426,10.189 L3.689,14.488 C3.55,15.302 4.406,15.927 5.14,15.542 L9,13.513 L12.861,15.543 C13.589,15.924 14.452,15.309 14.312,14.489 L13.575,10.19 L16.699,7.146 C17.292,6.565 16.961,5.557 16.144,5.438 Z"
-                        ></path>
-                      </g>
-                    </g>
-                  </g>
-                </svg>
-                <a
-                  target="_blank"
-                  class="blue-link"
-                  href="https://www.coursereport.com/schools/le-wagon#/reviews"
-                  >1304 reviews</a
-                >
-              </i>
-            </div>
-          </div>
-          <div class="referrer">
-            <img
-              alt="TechCrunch"
-              class="lozad techcrunch"
-              data-src="https://dwj199mwkel52.cloudfront.net/assets/core/referrers/techcrunch-logo-ff094541588818bd92b866d2b0a371610b1410c8832f075ef6237e4b428b3057.png"
-              role="link"
-              alt="Techcrunch logo"
-              src="https://dwj199mwkel52.cloudfront.net/assets/core/referrers/techcrunch-logo-ff094541588818bd92b866d2b0a371610b1410c8832f075ef6237e4b428b3057.png"
-              data-loaded="true"
-            />
-            <div class="referrer-data">
-              <blockquote>"A Major coding bootcamp"</blockquote>
-              <div class="referrer-logos">
-                <a
-                  target="_blank"
-                  class="blue-link"
-                  aria-label="Read Techcrunch article"
-                  href="https://techcrunch.com/2016/04/21/how-le-wagon-is-quietly-becoming-a-major-coding-bootcamp-in-europe/?guccounter=1"
-                >
-                  Read The Article
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Button trigger modal -->
-
-    <!-- Modal -->
-    <div
-      class="modal fade"
-      id="syllabusModal"
-      tabindex="-1"
-      role="dialog"
-      aria-labelledby="syllabusModalLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <button
-            type="button"
-            class="close close-form-modal"
-            data-dismiss="modal"
-            aria-label="Close"
-          >
-            <span aria-hidden="true">&times;</span>
-          </button>
-          <div class="modal-body py-5 pl-5 pr-2">
-            <h2 class="modal-title">
-              Download our Syllabus
+                <i class="fa fa-plus-square"></i>
+                <h2>What is TIPP?</h2>
+              </button>
             </h2>
+          </div>
+
+          <div
+          id="collapseFAQ-1"
+          class="collapse"
+          aria-labelledby="headingFAQ-1"
+          data-parent="#accordionFAQ"
+          >
+          <div class="card-body">
+            <strong
+            >The Tech Immersion and Placement Programme (TIPP)</strong
+            >
+            is a grant given by the Singapore government organization
+            <strong>Infocomm Media Development Authority (IMDA)</strong>
+            with the aim to massively support the education needed to place
+            people into tech positions. IMDA partners with industry experts
+            to offer short intensive and immersive training programmes to
+            further develop the Singaporean tech industry.
+          </div>
+        </div>
+      </div>
+
+      <div class="curriculum-card">
+        <div class="card-header" id="headingFAQ-2">
+          <h2 class="mb-0">
+            <button
+            class="btn btn-link btn-block text-left collapsed"
+            type="button"
+            data-toggle="collapse"
+            data-target="#collapseFAQ-2"
+            aria-expanded="false"
+            aria-controls="collapseFAQ-2"
+            >
+            <i class="fa fa-plus-square"></i>
+            <h2>Who can apply for TIPP?</h2>
+          </button>
+        </h2>
+      </div>
+
+      <div
+      id="collapseFAQ-2"
+      class="collapse"
+      aria-labelledby="headingFAQ-2"
+      data-parent="#accordionFAQ"
+      >
+      <div class="card-body">
+        Singaporeans and PRs who are fresh grads, mid-career switchers
+        or IT professionals and want to up-skill for a new tech position
+        or have a passion to join or build a tech start-up.
+      </div>
+    </div>
+  </div>
+
+  <div class="curriculum-card">
+    <div class="card-header" id="headingFAQ-3">
+      <h2 class="mb-0">
+        <button
+        class="btn btn-link btn-block text-left collapsed"
+        type="button"
+        data-toggle="collapse"
+        data-target="#collapseFAQ-3"
+        aria-expanded="false"
+        aria-controls="collapseFAQ-3"
+        >
+        <i class="fa fa-plus-square"></i>
+        <h2>Will I have to apply for TIPP myself?</h2>
+      </button>
+    </h2>
+  </div>
+
+  <div
+  id="collapseFAQ-3"
+  class="collapse"
+  aria-labelledby="headingFAQ-3"
+  data-parent="#accordionFAQ"
+  >
+  <div class="card-body">
+    No. During the application process to join the Le Wagon bootcamp
+    we will check if you are eligible for TIPP and get final
+    approval from IMDA for you.
+  </div>
+</div>
+</div>
+
+<div class="curriculum-card">
+  <div class="card-header" id="headingFAQ-4">
+    <h2 class="mb-0">
+      <button
+      class="btn btn-link btn-block text-left collapsed"
+      type="button"
+      data-toggle="collapse"
+      data-target="#collapseFAQ-4"
+      aria-expanded="false"
+      aria-controls="collapseFAQ-4"
+      >
+      <i class="fa fa-plus-square"></i>
+      <h2>What are the criteria to be eligible for TIPP?</h2>
+    </button>
+  </h2>
+</div>
+
+<div
+id="collapseFAQ-4"
+class="collapse"
+aria-labelledby="headingFAQ-4"
+data-parent="#accordionFAQ"
+>
+<div class="card-body">
+  <ul>
+    <li>
+      Intention to find a tech job or build a start-up after the
+      bootcamp.
+    </li>
+    <li>
+      No previous formal education or work experience in web
+      development.
+    </li>
+    <li>
+      Not previously benefitted from a TIPP subsidized training
+      program.
+    </li>
+    <li>
+      Remainder of tuition fee to be paid from personal funds (not
+      company sponsored).
+    </li>
+  </ul>
+  *Further criteria might apply. If in doubt with any of the above
+  please check with us!
+</div>
+</div>
+</div>
+
+<div class="curriculum-card">
+  <div class="card-header" id="headingFAQ-5">
+    <h2 class="mb-0">
+      <button
+      class="btn btn-link btn-block text-left collapsed"
+      type="button"
+      data-toggle="collapse"
+      data-target="#collapseFAQ-5"
+      aria-expanded="false"
+      aria-controls="collapseFAQ-5"
+      >
+      <i class="fa fa-plus-square"></i>
+      <h2>How much of the tuition fee will TIPP subsidize?</h2>
+    </button>
+  </h2>
+</div>
+
+<div
+id="collapseFAQ-5"
+class="collapse"
+aria-labelledby="headingFAQ-5"
+data-parent="#accordionFAQ"
+>
+<div class="card-body">
+  TIPP will subsidize up to 70%.
+  <ul>
+    <li>Tuition fee: SGD 10,000</li>
+    <li>TIPP subsidy: SGD 7,000</li>
+    <li>Payable amount: SGD 3,000</li>
+  </ul>
+</div>
+</div>
+</div>
+
+<div class="curriculum-card">
+  <div class="card-header" id="headingFAQ-6">
+    <h2 class="mb-0">
+      <button
+      class="btn btn-link btn-block text-left collapsed"
+      type="button"
+      data-toggle="collapse"
+      data-target="#collapseFAQ-6"
+      aria-expanded="false"
+      aria-controls="collapseFAQ-6"
+      >
+      <i class="fa fa-plus-square"></i>
+      <h2>When is the payable amount due?</h2>
+    </button>
+  </h2>
+</div>
+
+<div
+id="collapseFAQ-6"
+class="collapse"
+aria-labelledby="headingFAQ-6"
+data-parent="#accordionFAQ"
+>
+<div class="card-body">
+  Once you are accepted for TIPP your payable amount of $3,000 is
+  split in two installments. The first installment of $2,000 is
+  due upon signing the student contract. The second installment of
+  $1,000 is due 15 days before the bootcamp start date.
+</div>
+</div>
+</div>
+
+<div class="curriculum-card">
+  <div class="card-header" id="headingFAQ-7">
+    <h2 class="mb-0">
+      <button
+      class="btn btn-link btn-block text-left collapsed"
+      type="button"
+      data-toggle="collapse"
+      data-target="#collapseFAQ-7"
+      aria-expanded="false"
+      aria-controls="collapseFAQ-7"
+      >
+      <i class="fa fa-plus-square"></i>
+      <h2>
+        Will I get a higher subsidy if I am 40 years and above?
+      </h2>
+    </button>
+  </h2>
+</div>
+
+<div
+id="collapseFAQ-7"
+class="collapse"
+aria-labelledby="headingFAQ-7"
+data-parent="#accordionFAQ"
+>
+<div class="card-body">
+  You might qualify for a higher subsidy but it's subject to a
+  case by case approval. Please check with us.
+</div>
+</div>
+</div>
+</div>
+
+<div class="cta-link-container">
+  <a
+  class="banner-button-red"
+  target="_blank"
+  href="https://www.lewagon.com/singapore/apply"
+  >Apply Now</a
+  >
+</div>
+</div>
+</section>
+
+<section class="" style="">
+  <div class="container pb-5">
+    <h2 class="section_title text-center">
+      Private <span class="highlighted-red">Education</span> Institution
+    </h2>
+    <p class="section-text">
+      The registered Private Education Institution (PEI), SEA CODING
+      ACADEMY, is the operator of the Le Wagon Coding Bootcamp in Singapore.
+    </p>
+    <div class="row">
+      <div class="col-md-6 mb-4">
+        <div class="education-card">
+          <h3>General</h3>
+          <ul>
+            <li><strong>Registration number:</strong><br />201832121K</li>
+            <li>
+              <strong>Registration period:</strong><br />Mar 7, 2019 to Mar
+              6, 2021
+            </li>
+            <li>
+              <strong>Registered office:</strong><br />51 Goldhill Plaza,
+              #07-10/1, Singapore 308900
+            </li>
+            <li><strong>Manager:</strong><br />Dirk Schuler</li>
+            <li>
+              <strong>Academic and Examination Board:</strong><br />Dirk
+              Schuler, Audrey Wong, Guido Caldara
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-6 mb-4">
+        <div class="education-card">
+          <h3>Classroom</h3>
+          <ul>
+            <li>
+              <strong>Address:</strong><br />360 Orchard Road, #08-02,
+              Singapore 238869
+            </li>
+            <li>
+              <strong>Facilities:</strong><br />85m2 classroom, Wifi, AC,
+              Projector
+            </li>
+            <li>
+              <strong>Equipment:</strong><br />Students to bring their own
+              laptop
+            </li>
+            <li>
+              <strong>Student-Teacher ration:</strong><br />Maximum 7:1
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="wrapper-referrers" style="background-color: #fcfaf8;">
+  <div class="container mt-5">
+    <h2 class="title_review section_title text-center">
+      The <span class="highlighted-red">No.1</span> coding bootcamp
+    </h2>
+    <p class="section-text">
+      Le Wagon is the #1 ranked coding bootcamp worldwide. We’re trusted by
+      hundreds of students in 39 campuses all over the world to give people
+      the best quality tech education.
+    </p>
+    <div class="switchup-content-city">
+      <img
+      alt="Switchup"
+      class="lozad coursereport"
+      data-src="https://dwj199mwkel52.cloudfront.net/assets/core/referrers/badge-switchup-city-f5eeb08c02bc0b196ff34ce6cb6a059bbc3509417078f2b441334cee6c918f3c.png"
+      alt="#1 ranked coding bootcamp in Singapore on Switchup"
+      src="https://dwj199mwkel52.cloudfront.net/assets/core/referrers/badge-switchup-city-f5eeb08c02bc0b196ff34ce6cb6a059bbc3509417078f2b441334cee6c918f3c.png"
+      data-loaded="true"
+      />
+      <p>
+        For the fourth year in a row, Le Wagon is
+        <a
+        href="https://www.switchup.org/rankings/best-coding-bootcamps"
+        target="_blank"
+        >ranked #1 coding bootcamp worldwide on Switchup</a
+        >
+        according to student reviews! We feel blessed and honoured to have
+        enabled them - and to keep enabling our students - to become
+        autonomous in coding, upskill in their career or launch their own
+        startups.
+      </p>
+    </div>
+
+    <span class="section-label"
+    >What they think about our coding bootcamps</span
+    >
+    <div class="referrers">
+      <div class="referrer">
+        <img
+        alt="Switchup"
+        class="lozad switchup"
+        data-src="https://dwj199mwkel52.cloudfront.net/assets/core/referrers/switchup-b720724d6624ec0fdcdbb11106a5c52f2ad988d8477a2a9f0bae9886464ff9b0.png"
+        alt="Switchup logo"
+        src="https://dwj199mwkel52.cloudfront.net/assets/core/referrers/switchup-b720724d6624ec0fdcdbb11106a5c52f2ad988d8477a2a9f0bae9886464ff9b0.png"
+        data-loaded="true"
+        />
+        <div class="referrer-data">
+          <span>N°1 Coding Bootcamp<br />on Switchup</span>
+          <i>
+            <abbr>4.99/5</abbr>
+            <svg
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            id="star-ranking"
+            width="50"
+            height="10"
+            aria-labelledby="star-ranking-title"
+            role="img"
+            version="1.1"
+            viewBox="0 0 85 16"
+            >
+            <title id="star-ranking-title">5 stars ranking</title>
+            <g
+            fill="none"
+            fill-rule="evenodd"
+            stroke="none"
+            stroke-width="1"
+            >
+            <g
+            id="stars"
+            fill="#111"
+            fill-rule="nonzero"
+            transform="translate(-1.000000, 0.000000)"
+            >
+            <g id="star">
+              <path
+              id="Path"
+              d="M16.144,5.438 L11.828,4.811 L9.897,0.9 C9.559,0.217 8.441,0.217 8.103,0.9 L6.173,4.811 L1.856,5.438 C1.039,5.557 0.708,6.565 1.302,7.145 L4.426,10.189 L3.689,14.488 C3.55,15.302 4.406,15.927 5.14,15.542 L9,13.513 L12.861,15.543 C13.589,15.924 14.452,15.309 14.312,14.489 L13.575,10.19 L16.699,7.146 C17.292,6.565 16.961,5.557 16.144,5.438 Z"
+              ></path>
+            </g>
+            <g id="star" transform="translate(18.000000, 0.000000)">
+              <path
+              id="Path"
+              d="M16.144,5.438 L11.828,4.811 L9.897,0.9 C9.559,0.217 8.441,0.217 8.103,0.9 L6.173,4.811 L1.856,5.438 C1.039,5.557 0.708,6.565 1.302,7.145 L4.426,10.189 L3.689,14.488 C3.55,15.302 4.406,15.927 5.14,15.542 L9,13.513 L12.861,15.543 C13.589,15.924 14.452,15.309 14.312,14.489 L13.575,10.19 L16.699,7.146 C17.292,6.565 16.961,5.557 16.144,5.438 Z"
+              ></path>
+            </g>
+            <g id="star" transform="translate(35.000000, 0.000000)">
+              <path
+              id="Path"
+              d="M16.144,5.438 L11.828,4.811 L9.897,0.9 C9.559,0.217 8.441,0.217 8.103,0.9 L6.173,4.811 L1.856,5.438 C1.039,5.557 0.708,6.565 1.302,7.145 L4.426,10.189 L3.689,14.488 C3.55,15.302 4.406,15.927 5.14,15.542 L9,13.513 L12.861,15.543 C13.589,15.924 14.452,15.309 14.312,14.489 L13.575,10.19 L16.699,7.146 C17.292,6.565 16.961,5.557 16.144,5.438 Z"
+              ></path>
+            </g>
+            <g id="star" transform="translate(52.000000, 0.000000)">
+              <path
+              id="Path"
+              d="M16.144,5.438 L11.828,4.811 L9.897,0.9 C9.559,0.217 8.441,0.217 8.103,0.9 L6.173,4.811 L1.856,5.438 C1.039,5.557 0.708,6.565 1.302,7.145 L4.426,10.189 L3.689,14.488 C3.55,15.302 4.406,15.927 5.14,15.542 L9,13.513 L12.861,15.543 C13.589,15.924 14.452,15.309 14.312,14.489 L13.575,10.19 L16.699,7.146 C17.292,6.565 16.961,5.557 16.144,5.438 Z"
+              ></path>
+            </g>
+            <g id="star" transform="translate(69.000000, 0.000000)">
+              <path
+              id="Path"
+              d="M16.144,5.438 L11.828,4.811 L9.897,0.9 C9.559,0.217 8.441,0.217 8.103,0.9 L6.173,4.811 L1.856,5.438 C1.039,5.557 0.708,6.565 1.302,7.145 L4.426,10.189 L3.689,14.488 C3.55,15.302 4.406,15.927 5.14,15.542 L9,13.513 L12.861,15.543 C13.589,15.924 14.452,15.309 14.312,14.489 L13.575,10.19 L16.699,7.146 C17.292,6.565 16.961,5.557 16.144,5.438 Z"
+              ></path>
+            </g>
+          </g>
+        </g>
+      </svg>
+      <a
+      target="_blank"
+      class="blue-link"
+      href="https://www.switchup.org/bootcamps/le-wagon#tablist-tab-review"
+      ><abbr itemprop="votes">1371</abbr> reviews</a
+      >
+    </i>
+  </div>
+</div>
+<div class="referrer">
+  <img
+  alt="CourseReport"
+  class="lozad coursereport"
+  data-src="https://dwj199mwkel52.cloudfront.net/assets/core/referrers/coursereport-a74c4a43e2b9f549c332e8be922d7c301dc9459c138c474173adda71e60f1f75.png"
+  alt="Coursereport logo"
+  src="https://dwj199mwkel52.cloudfront.net/assets/core/referrers/coursereport-a74c4a43e2b9f549c332e8be922d7c301dc9459c138c474173adda71e60f1f75.png"
+  data-loaded="true"
+  />
+  <div class="referrer-data">
+    <span>N°1 Coding Bootcamp<br />on Coursereport</span>
+    <i>
+      <abbr>4.96/5</abbr>
+      <svg
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      id="star-ranking"
+      width="50"
+      height="10"
+      aria-labelledby="star-ranking-title"
+      role="img"
+      version="1.1"
+      viewBox="0 0 85 16"
+      >
+      <title id="star-ranking-title">5 stars ranking</title>
+      <g
+      fill="none"
+      fill-rule="evenodd"
+      stroke="none"
+      stroke-width="1"
+      >
+      <g
+      id="stars"
+      fill="#111"
+      fill-rule="nonzero"
+      transform="translate(-1.000000, 0.000000)"
+      >
+      <g id="star">
+        <path
+        id="Path"
+        d="M16.144,5.438 L11.828,4.811 L9.897,0.9 C9.559,0.217 8.441,0.217 8.103,0.9 L6.173,4.811 L1.856,5.438 C1.039,5.557 0.708,6.565 1.302,7.145 L4.426,10.189 L3.689,14.488 C3.55,15.302 4.406,15.927 5.14,15.542 L9,13.513 L12.861,15.543 C13.589,15.924 14.452,15.309 14.312,14.489 L13.575,10.19 L16.699,7.146 C17.292,6.565 16.961,5.557 16.144,5.438 Z"
+        ></path>
+      </g>
+      <g id="star" transform="translate(18.000000, 0.000000)">
+        <path
+        id="Path"
+        d="M16.144,5.438 L11.828,4.811 L9.897,0.9 C9.559,0.217 8.441,0.217 8.103,0.9 L6.173,4.811 L1.856,5.438 C1.039,5.557 0.708,6.565 1.302,7.145 L4.426,10.189 L3.689,14.488 C3.55,15.302 4.406,15.927 5.14,15.542 L9,13.513 L12.861,15.543 C13.589,15.924 14.452,15.309 14.312,14.489 L13.575,10.19 L16.699,7.146 C17.292,6.565 16.961,5.557 16.144,5.438 Z"
+        ></path>
+      </g>
+      <g id="star" transform="translate(35.000000, 0.000000)">
+        <path
+        id="Path"
+        d="M16.144,5.438 L11.828,4.811 L9.897,0.9 C9.559,0.217 8.441,0.217 8.103,0.9 L6.173,4.811 L1.856,5.438 C1.039,5.557 0.708,6.565 1.302,7.145 L4.426,10.189 L3.689,14.488 C3.55,15.302 4.406,15.927 5.14,15.542 L9,13.513 L12.861,15.543 C13.589,15.924 14.452,15.309 14.312,14.489 L13.575,10.19 L16.699,7.146 C17.292,6.565 16.961,5.557 16.144,5.438 Z"
+        ></path>
+      </g>
+      <g id="star" transform="translate(52.000000, 0.000000)">
+        <path
+        id="Path"
+        d="M16.144,5.438 L11.828,4.811 L9.897,0.9 C9.559,0.217 8.441,0.217 8.103,0.9 L6.173,4.811 L1.856,5.438 C1.039,5.557 0.708,6.565 1.302,7.145 L4.426,10.189 L3.689,14.488 C3.55,15.302 4.406,15.927 5.14,15.542 L9,13.513 L12.861,15.543 C13.589,15.924 14.452,15.309 14.312,14.489 L13.575,10.19 L16.699,7.146 C17.292,6.565 16.961,5.557 16.144,5.438 Z"
+        ></path>
+      </g>
+      <g id="star" transform="translate(69.000000, 0.000000)">
+        <path
+        id="Path"
+        d="M16.144,5.438 L11.828,4.811 L9.897,0.9 C9.559,0.217 8.441,0.217 8.103,0.9 L6.173,4.811 L1.856,5.438 C1.039,5.557 0.708,6.565 1.302,7.145 L4.426,10.189 L3.689,14.488 C3.55,15.302 4.406,15.927 5.14,15.542 L9,13.513 L12.861,15.543 C13.589,15.924 14.452,15.309 14.312,14.489 L13.575,10.19 L16.699,7.146 C17.292,6.565 16.961,5.557 16.144,5.438 Z"
+        ></path>
+      </g>
+    </g>
+  </g>
+</svg>
+<a
+target="_blank"
+class="blue-link"
+href="https://www.coursereport.com/schools/le-wagon#/reviews"
+>1304 reviews</a
+>
+</i>
+</div>
+</div>
+<div class="referrer">
+  <img
+  alt="TechCrunch"
+  class="lozad techcrunch"
+  data-src="https://dwj199mwkel52.cloudfront.net/assets/core/referrers/techcrunch-logo-ff094541588818bd92b866d2b0a371610b1410c8832f075ef6237e4b428b3057.png"
+  role="link"
+  alt="Techcrunch logo"
+  src="https://dwj199mwkel52.cloudfront.net/assets/core/referrers/techcrunch-logo-ff094541588818bd92b866d2b0a371610b1410c8832f075ef6237e4b428b3057.png"
+  data-loaded="true"
+  />
+  <div class="referrer-data">
+    <blockquote>"A Major coding bootcamp"</blockquote>
+    <div class="referrer-logos">
+      <a
+      target="_blank"
+      class="blue-link"
+      aria-label="Read Techcrunch article"
+      href="https://techcrunch.com/2016/04/21/how-le-wagon-is-quietly-becoming-a-major-coding-bootcamp-in-europe/?guccounter=1"
+      >
+      Read The Article
+    </a>
+  </div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Button trigger modal -->
+
+<!-- Modal -->
+<div
+class="modal fade"
+id="syllabusModal"
+tabindex="-1"
+role="dialog"
+aria-labelledby="syllabusModalLabel"
+aria-hidden="true"
+>
+<div class="modal-dialog" role="document">
+  <div class="modal-content">
+    <button
+    type="button"
+    class="close close-form-modal"
+    data-dismiss="modal"
+    aria-label="Close"
+    >
+    <span aria-hidden="true">&times;</span>
+  </button>
+  <div class="modal-body py-5 pl-5 pr-2">
+    <h2 class="modal-title">
+      Download our Syllabus
+    </h2>
             <!--[if lte IE 8]>
               <script
                 charset="utf-8"
@@ -1561,9 +1284,9 @@
               ></script>
             <![endif]-->
             <script
-              charset="utf-8"
-              type="text/javascript"
-              src="//js.hsforms.net/forms/v2.js"
+            charset="utf-8"
+            type="text/javascript"
+            src="//js.hsforms.net/forms/v2.js"
             ></script>
             <script>
               hbspt.forms.create({
@@ -1583,25 +1306,25 @@
     <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
-      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-      crossorigin="anonymous"
+    src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"
     ></script>
     <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
+    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"
     ></script>
     <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-      crossorigin="anonymous"
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"
     ></script>
     <script
-      type="text/javascript"
-      src="https:{{ get_asset_url('/Singapore Landing Page Test/SG Landing Page .js') }}"
+    type="text/javascript"
+    src="https:{{ get_asset_url('/Singapore Landing Page Test/SG Landing Page .js') }}"
     ></script>
 
     {{ standard_footer_includes }}
   </body>
-</html>
+  </html>

@@ -1,18 +1,32 @@
-body {
-  font-family: 'Raleway', sans-serif;
+@font-face {
+  font-family: CircularStd-Black;
+  src: url("//cdn2.hubspot.net/hubfs/4419217/Le_Wagon_January2019%20Header/Fonts/CircularStd-Black.eot") format("embedded-opentype"),
+  url("//cdn2.hubspot.net/hubfs/4419217/Le_Wagon_January2019%20Header/Fonts/CircularStd-Black.woff") format("woff"),
+  url("//cdn2.hubspot.net/hubfs/4419217/Le_Wagon_January2019%20Header/Fonts/CircularStd-Black.woff2") format("woff2"),
+  url("//cdn2.hubspot.net/hubfs/4419217/Le_Wagon_January2019%20Header/Fonts/CircularStd-Black.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Graphik-Regular;
+  src: url("https://cdn2.hubspot.net/hubfs/4419217/Le_Wagon_January2019%20Header/Fonts/Graphik-Regular.eot") format("embedded-opentype"), url("https://cdn2.hubspot.net/hubfs/4419217/Le_Wagon_January2019%20Header/Fonts/Graphik-Regular.woff") format("woff"), url("https://cdn2.hubspot.net/hubfs/4419217/Le_Wagon_January2019%20Header/Fonts/Graphik-Regular.ttf") format("truetype");
+}
+
+
+body{
+  font-family: Graphik-Regular;
+
+}
+
+h1, h2{
+  font-family: CircularStd-Black;
 }
 
 .modal-content {
   position: relative;
 }
 
-.modal-content .input {
-  background-color: blue !important;
-}
-
 
 .modal-title{
-  font-family: 'Montserrat', sans-serif;
   font-size: 32px;
   margin-bottom: 16px;
 }
@@ -138,7 +152,7 @@ html {
 }
 
 .highlighted-red {
-  padding: 3px 8px;
+  padding: 2px 15px 4px;
   color: #fd1015;
   background: rgba(253,16,21,.1);
 }
@@ -163,13 +177,13 @@ html {
 }
 
 #syllabus_mobile_eligible::after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: calc(100% - 130px);
-    top: 0;
-    background-color: #fcf5e8;
-    z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: calc(100% - 130px);
+  top: 0;
+  background-color: #fcf5e8;
+  z-index: -1;
 }
 
 #syllabus_mobile {
@@ -189,10 +203,10 @@ html {
 }
 
 .card-next-batch .course-icon {
-    height: 40px;
-    width: 40px;
-    margin-right: 10px;
-  }
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+}
 
 .cta-link-container{
   display:flex;
@@ -235,6 +249,152 @@ html {
   min-height: 214px;
 }
 
+.carousel-item{
+  min-height: 680px;
+}
+
+
+.program-cards{
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 42px 0 80px;
+}
+
+
+
+
+.program-cards .program-card {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  position: relative;
+  width: 48%;
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 0 15px 35px rgba(126,87,88,.1), 0 5px 15px rgba(0,0,0,.07);
+  transition: all .3s ease-in-out;
+}
+
+
+@media only screen and (max-width: 750px) {
+  .program-cards{
+    display: block;
+    justify-content: space-between;
+    margin: 42px 0 80px;
+  }
+  .card-sylabus-btn-container{
+    margin-left: 0px !important
+  }
+  .program-card{
+    width: 100% !important;
+    margin-bottom: 20px;
+  }
+
+
+}
+@media only screen and (max-width: 1220px) {
+  .card-sylabus-btn-container{
+    margin-left: 0px !important
+  }
+  .batch-date{
+    display: flex;
+    margin-bottom: 10px;
+  }
+
+}
+
+
+
+
+.program-cards .program-card .program-details {
+  padding: 20px 30px 0;
+}
+
+.program-cards .program-card h3 {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 21px;
+}
+
+.program-cards .program-card h3 svg {
+  margin-right: 16px;
+  width: 36px;
+  height: 36px;
+}
+
+.program-cards .program-card p {
+  margin-bottom: 0;
+  font-size: 15px;
+}
+
+.program-cards .program-card ul {
+  margin: 21px 0 0;
+  width: 100%;
+}
+
+.program-cards .program-card .home-program {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.program-cards .program-card ul li {
+  position: relative;
+  padding: 16px 0px;
+  font-size: 14px;
+  border-top: 1px solid #eaeaea;
+}
+
+.program-cards .program-card .home-program .cta {
+  display: -ms-flexbox;
+  display: flex;
+}
+.program-cards .program-card ul li .cta {
+  min-height: 32px;
+}
+.program-cards .program-card ul li a {
+  font-size: 14px;
+  font-family: Graphik-Medium;
+  z-index: 2;
+}
+.cta {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 12px 36px;
+  min-width: 95px;
+  border-radius: 3px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all .15s ease;
+}
+.cta-card {
+  background-color: #fff;
+  color: #fd1015;
+  border: 1px solid #eaeaea;
+}
+
+@media (max-width: 750px){
+  .carousel-control-next, .carousel-control-prev {
+    align-items: flex-start;
+    padding-top: 250px;
+    width: 8%
+  }
+
+}
+
 .testimonials .carousel-control-prev-icon {
  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
 }
@@ -251,7 +411,6 @@ html {
 
 .curriculum .main h2.course-name {
   font-size: 21px;
-  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   letter-spacing: -1px;
 }
@@ -277,8 +436,8 @@ html {
 
 .accordion .curriculum-card .card-header h2 {
   font-size: 18px;
-    margin: 0px;
-    color: black;
+  margin: 0px;
+  color: black;
 }
 .accordion .curriculum-card .card-header h2 button:hover {
   text-decoration: none;
@@ -315,15 +474,21 @@ html {
 .wrapper-program:first-of-type {
   padding-top: 60px;
 }
-@media (max-width: 1140px)
-.wrapper {
-  padding-left: 20px!important;
-  padding-right: 20px!important;
+
+
+
+@media (max-width: 1140px) {
+  .wrapper-program {
+    padding: 80px 0;
+
+  }
+  .wrapper {
+    padding-left: 20px!important;
+    padding-right: 20px!important;
+  }
+
 }
-@media (max-width: 1140px)
-.wrapper-program {
-  padding: 80px 0;
-}
+
 
 abbr.section_title {
   font-size: 20px;
@@ -378,12 +543,11 @@ abbr.section_title {
 /* end */
 
 .section_title {
-  font-size: 36px;
+  font-size: 40px;
   letter-spacing: -2px;
   /* remove letter spacing: -2px; when using back Circular */
   color: #0e0000;
   font-weight: 800;
-  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   margin-bottom: 5vh;
   padding-top: 5vh;
@@ -479,7 +643,7 @@ abbr.section_title {
     }
 
 
-@media only screen and (max-width: 850px) {
+    @media only screen and (max-width: 850px) {
      .imda-logo-abs{
       display: none
     }
@@ -487,92 +651,92 @@ abbr.section_title {
       display: block
     }
 
-}
+  }
 
   @media (max-width: 850px) {
-  .curriculum .main {
-    flex-direction: column;
-  }
-  .curriculum .left {
-    width: 100% !important;
-  }
-  .curriculum .right{
-    width: 100% !important;
+    .curriculum .main {
+      flex-direction: column;
+    }
+    .curriculum .left {
+      width: 100% !important;
+    }
+    .curriculum .right{
+      width: 100% !important;
+    }
+
+    .picture {
+      display: none;
+    }
+    .eligible-main {
+      display: flex;
+    }
+    .eligible-list {
+      padding-top: 0px !important;
+    }
+    .contact-us-link {
+      padding-left: 16px ;
+      padding-right: 16px;
+      /*display: flex;*/
+    }
+    .contact-us-link img {
+      padding-right: 10px;
+    }
+    .cta-contact-list {
+      border-bottom: 2px solid #fd1015 !important;
+    }
+
+    #syllabus_mobile_eligible::after {
+      height: 100%;
+    }
+
+    .experience h2 {
+      text-align: center;
+    }
+
+    .experience .container {
+      flex-wrap: wrap;
+    }
+    .experience .left {
+      width: 100% !important;
+    }
+
+    .experience .left .section-text {
+      margin-bottom: 0vh;
+    }
+
+    .experience .left .video {
+      padding: 0;
+    }
+
+    .list_section {
+      padding-left: 0;
+      margin-left: 0;
+    }
+
+    .list_section li {
+      font-size: 20px;
+      margin-bottom: 2vh;
+    }
   }
 
-  .picture {
-    display: none;
-  }
-  .eligible-main {
-    display: flex;
-  }
-  .eligible-list {
-    padding-top: 0px !important;
-  }
-  .contact-us-link {
-    padding-left: 16px ;
-    padding-right: 16px;
-    /*display: flex;*/
-  }
-  .contact-us-link img {
-    padding-right: 10px;
-  }
-  .cta-contact-list {
-    border-bottom: 2px solid #fd1015 !important;
-  }
-
-  #syllabus_mobile_eligible::after {
-    height: 100%;
-  }
-
-  .experience h2 {
-    text-align: center;
-  }
-
-  .experience .container {
-    flex-wrap: wrap;
-  }
-  .experience .left {
-    width: 100% !important;
-  }
-
-  .experience .left .section-text {
-    margin-bottom: 0vh;
-  }
-
-  .experience .left .video {
-    padding: 0;
-  }
-
-  .list_section {
-    padding-left: 0;
-    margin-left: 0;
-  }
-
-  .list_section li {
-    font-size: 20px;
-    margin-bottom: 2vh;
-  }
-}
-
-@media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 600px) {
 
 
-  .cta-black-link{
-    font-size: 24px;
-  }
+    .cta-black-link{
+      font-size: 24px;
+    }
 
-  .navbar {
-    justify-content: space-between !important;
-    background-color: transparent;
+    .navbar {
+      justify-content: space-between !important;
+      background-color: transparent;
+    }
+    .nav_logo{
+      margin-right: 0px !important
+    }
+    .section-text {
+      font-size: 17px;
+    }
   }
-  .nav_logo{
-    margin-right: 0px !important
-  }
-  .section-text {
-    font-size: 17px;
-  }
-}
 
 
   .cta-link-container img{
@@ -1184,7 +1348,6 @@ banner-button-white:focus{
 h1{
   color: #0e0000;
   font-weight: 800;
-  font-family: 'Montserrat', sans-serif;
 }
 
 p{
@@ -1270,6 +1433,11 @@ tbody{
 
 
 /* End N1 Bootcamp part */
+
+@media only screen and (max-width: 950px){
+.logo-grids {
+    grid-template-columns: 1fr 1fr 1fr 1fr!important;
+}
 
 
 @media only screen and (max-width: 600px) {
@@ -1395,7 +1563,7 @@ tbody{
   }
 }
 @media only screen and (max-width: 340px) {
-    .header_title h1 {
+  .header_title h1 {
     font-size: 40px;
     margin-bottom: 0
   }
